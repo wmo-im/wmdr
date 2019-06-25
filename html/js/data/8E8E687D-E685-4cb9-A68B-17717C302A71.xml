@@ -1,0 +1,3 @@
+tocTab[tocTab.length] = new Array("0.1.1.2.5:1", "", "«Requirement» facility-log-valid", "EARoot/EA1/EA1/EA2/EA5/EA125.html", "19.png", "E22793", "0", "", "Requirement0","{F6246FE3-5BF8-4830-9893-76987926E941}");
+tocTab[tocTab.length] = new Array("0.1.1.2.5:2", "", "«Requirement» facility-log-entries", "EARoot/EA1/EA1/EA2/EA5/EA126.html", "19.png", "E22792", "0", "", "Requirement0","{75AE6FF0-A54A-46a0-9A11-D10CE4695FC2}");
+tocTab[tocTab.length] = new Array("0.1.1.2.5:3", "", "«Requirement» facility-log-entries-event-type", "EARoot/EA1/EA1/EA2/EA5/EA127.html", "19.png", "E22791", "0", "", "Requirement0","{4C031DE1-CAB4-4305-8A68-F0018F8411F7}");

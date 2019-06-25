@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wmdr:WIGOSMetadataRecord xmlns:wmdr="http://def.wmo.int/wmdr/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:om="http://www.opengis.net/om/2.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:sam="http://www.opengis.net/sampling/2.0" xmlns:sams="http://www.opengis.net/samplingSpatial/2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" gml:id="wmdr_templ_new_instrument.xml" xsi:schemaLocation="http://def.wmo.int/wmdr/1.0 http://schemas.wmo.int/wmdr/1.0/wmdr.xsd">
+<!-- replace all the square brackets with content-->
+	<wmdr:headerInformation owns="false">
+		<wmdr:Header>
+			<wmdr:fileDateTime>[yyyy]-[mm]-[dd]T[hh]:[mm]:[ss]</wmdr:fileDateTime><!--mandatory, date and time when this file was last updated-->
+			<wmdr:recordOwner>
+				<CI_ResponsibleParty xmlns="http://www.isotc211.org/2005/gmd">
+					<individualName>
+						<gco:CharacterString>Instrument Expert</gco:CharacterString>
+					</individualName>
+					<organisationName>
+						<gco:CharacterString>[free text]</gco:CharacterString><!--mandatory, name of the file sender (manufacturer)-->
+					</organisationName>
+					<gmd:contactInfo>
+						<gmd:CI_Contact>
+							<gmd:address>
+								<gmd:CI_Address>
+									<gmd:electronicMailAddress>
+										<gco:CharacterString>[free text]</gco:CharacterString><!--mandatory, email of sender-->
+									</gmd:electronicMailAddress>
+								</gmd:CI_Address>
+							</gmd:address>
+						</gmd:CI_Contact>
+					</gmd:contactInfo>
+					<role>
+						<CI_RoleCode codeList="" codeListValue="pointOfContact"> </CI_RoleCode>
+					</role>
+				</CI_ResponsibleParty>
+			</wmdr:recordOwner>
+		</wmdr:Header>
+	</wmdr:headerInformation>
+	<wmdr:equipment><!-- element wmdr:equipment contains a single instrument, more instruments can be submitted within the same XML file by adding new wmdr:equipment elements-->
+		<wmdr:Equipment gml:id="ID_[free text]"><!--mandatory, i.e. incremental number, value must be unique within the xml file-->
+				<gml:identifier codeSpace="https://code.wmo.int/[WMO306_CD]"><!--mandatory, observed variable, see https://docs.google.com/spreadsheets/d/19ZGKKJrpvK-2OsO0TTrewWWC1mCEGgk35xeFN1jxm74/edit#gid=0 for available WMO306_CD values--></gml:identifier>
+			<wmdr:responsibleParty>
+				<wmdr:ResponsibleParty>
+					<wmdr:responsibleParty>
+						<gmd:CI_ResponsibleParty>
+							<gmd:role>
+								<gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists#CI_RoleCode" codeListValue="pointOfContact"></gmd:CI_RoleCode>															
+							</gmd:role>
+						</gmd:CI_ResponsibleParty>
+					</wmdr:responsibleParty>
+				</wmdr:ResponsibleParty>
+			</wmdr:responsibleParty>
+				<wmdr:manufacturer>[free text]<!--mandatory, instrument manufacturer name--></wmdr:manufacturer>
+				<wmdr:model>[free text]<!--mandatory, instrument model name--></wmdr:model>
+			<wmdr:observingMethod xlink:href="http://codes.wmo.int/wmdr/observingMethod/[WMO306_CD]"><!--instrument observing method, see https://docs.google.com/spreadsheets/d/1Bf6o3Lbkai1uttpwUoOh1jGRjzukUq4b9iYmfH-VjD8 for available [WMO306_CD], mandatory--></wmdr:observingMethod>
+			<wmdr:observingMethodDetails>[free text]<!--observing Method Details, free text, if not availble insert "unknown"--></wmdr:observingMethodDetails>
+			<wmdr:observableRange>[free text]<!--observable range, instrument official specs, if not availble insert "unknown"--></wmdr:observableRange>
+			<wmdr:specifiedAbsoluteUncertainty>[free text]<!--absolute uncertainty of deployed instrument, include unit, if not availble insert "unknown"--></wmdr:specifiedAbsoluteUncertainty>
+			<wmdr:specifiedRelativeUncertainty>[free text]<!--relative uncertainty of deployed instrument, include unit, if not availble insert "unknown"--></wmdr:specifiedRelativeUncertainty>
+			<wmdr:driftPerUnitTime>[free text]<!--drift per unit time, include unit time, if not availble insert "unknown"--></wmdr:driftPerUnitTime>
+			<wmdr:specificationLink>[URL]<!--optional, URL of instrument specifications--></wmdr:specificationLink>
+		</wmdr:Equipment>
+	</wmdr:equipment>
+	<wmdr:equipment>
+		<wmdr:Equipment gml:id="ID_[free text]"><!--mandatory, i.e. incremental number, value must be unique within the xml file-->
+				<gml:identifier codeSpace="https://code.wmo.int/[WMO306_CD]"><!--mandatory, observed variable, see https://docs.google.com/spreadsheets/d/19ZGKKJrpvK-2OsO0TTrewWWC1mCEGgk35xeFN1jxm74/edit#gid=0 for available WMO306_CD values--></gml:identifier>
+			<wmdr:responsibleParty>
+				<wmdr:ResponsibleParty>
+					<wmdr:responsibleParty>
+						<gmd:CI_ResponsibleParty>
+							<gmd:role>
+								<gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists#CI_RoleCode" codeListValue="pointOfContact"></gmd:CI_RoleCode>															
+							</gmd:role>
+						</gmd:CI_ResponsibleParty>
+					</wmdr:responsibleParty>
+				</wmdr:ResponsibleParty>
+			</wmdr:responsibleParty>
+				<wmdr:manufacturer>[free text]<!--mandatory, instrument manufacturer name--></wmdr:manufacturer>
+				<wmdr:model>[free text]<!--mandatory, instrument model name--></wmdr:model>
+			<wmdr:observingMethod xlink:href="http://codes.wmo.int/wmdr/observingMethod/[WMO306_CD]"><!--instrument observing method, see https://docs.google.com/spreadsheets/d/1Bf6o3Lbkai1uttpwUoOh1jGRjzukUq4b9iYmfH-VjD8 for available [WMO306_CD], mandatory--></wmdr:observingMethod>
+			<wmdr:observingMethodDetails>[free text]<!--observing Method Details, if not availble insert "unknown"--></wmdr:observingMethodDetails>
+			<wmdr:observableRange>[free text]<!--observable range, instrument official specs, if not availble insert "unknown"--></wmdr:observableRange>
+			<wmdr:specifiedAbsoluteUncertainty>[free text]<!--absolute uncertainty of deployed instrument, include unit, if not availble insert "unknown"--></wmdr:specifiedAbsoluteUncertainty>
+			<wmdr:specifiedRelativeUncertainty>[free text]<!--relative uncertainty of deployed instrument, include unit, if not availble insert "unknown"--></wmdr:specifiedRelativeUncertainty>
+			<wmdr:driftPerUnitTime>[free text]<!--drift per unit time, include unit time, if not availble insert "unknown"--></wmdr:driftPerUnitTime>
+			<wmdr:specificationLink>[URL]<!--optional, URL of instrument specifications--></wmdr:specificationLink>
+		</wmdr:Equipment>
+	</wmdr:equipment>
+</wmdr:WIGOSMetadataRecord>
+

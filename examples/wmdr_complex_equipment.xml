@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wmdr:WIGOSMetadataRecord xmlns:wmdr="http://def.wmo.int/wmdr/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:om="http://www.opengis.net/om/2.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:sam="http://www.opengis.net/sampling/2.0" xmlns:sams="http://www.opengis.net/samplingSpatial/2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" gml:id="wmdr_complex_equipment.xml" xsi:schemaLocation="http://def.wmo.int/wmdr/1.0 http://schemas.wmo.int/wmdr/1.0/wmdr.xsd">
+	<!-- replace all the square brackets with content-->
+	<wmdr:headerInformation owns="false">
+		<wmdr:Header>
+			<wmdr:fileDateTime>2018-12-06T13:58:23Z</wmdr:fileDateTime>
+			<!--mandatory, date and time when this file was last updated-->
+			<wmdr:recordOwner>
+				<CI_ResponsibleParty xmlns="http://www.isotc211.org/2005/gmd">
+					<individualName>
+						<gco:CharacterString>Instrument Expert</gco:CharacterString>
+					</individualName>
+					<organisationName>
+						<gco:CharacterString>Organisation XYZ</gco:CharacterString>
+						<!--mandatory, name of the file sender (manufacturer)-->
+					</organisationName>
+					<gmd:contactInfo>
+						<gmd:CI_Contact>
+							<gmd:address>
+								<gmd:CI_Address>
+									<gmd:electronicMailAddress>
+										<gco:CharacterString>john.doe@mailinator.com</gco:CharacterString>
+									</gmd:electronicMailAddress>
+								</gmd:CI_Address>
+							</gmd:address>
+						</gmd:CI_Contact>
+					</gmd:contactInfo>
+					<role>
+						<CI_RoleCode codeList="" codeListValue="pointOfContact"> </CI_RoleCode>
+					</role>
+				</CI_ResponsibleParty>
+			</wmdr:recordOwner>
+		</wmdr:Header>
+	</wmdr:headerInformation>
+	<wmdr:equipment>
+		<!-- element wmdr:equipment contains a single instrument, more instruments can be submitted within the same XML file by adding new wmdr:equipment elements-->
+		<wmdr:Equipment gml:id="medusa">
+			<wmdr:manufacturer>MIT</wmdr:manufacturer>
+			<wmdr:model>Medusa GC-MS</wmdr:model>
+			<wmdr:observingMethod xlink:href="http://codes.wmo.int/wmdr/observingMethodAtmosphere/303"/>
+			<wmdr:observingMethodDetails>http://agage.mit.edu/instruments/medusa-gas-chromatography-mass-spectrometry-medusa-gc-ms</wmdr:observingMethodDetails>
+			<wmdr:subEquipment>
+				<wmdr:Equipment>
+					<wmdr:manufacturer>Agilent</wmdr:manufacturer>
+					<wmdr:model>5973 GC-MS</wmdr:model>
+					<wmdr:serialNumber>S/N 1234567</wmdr:serialNumber>
+					<wmdr:observingMethod xlink:href="http://codes.wmo.int/wmdr/observingMethodAtmosphere/303"/>
+				</wmdr:Equipment>
+			</wmdr:subEquipment>
+			<wmdr:subEquipment>
+				<wmdr:Equipment>
+					<wmdr:manufacturer>Custom</wmdr:manufacturer>
+					<wmdr:model>Medusa 2018</wmdr:model>
+					<wmdr:serialNumber>S/N abc</wmdr:serialNumber>
+					<wmdr:observingMethod xlink:href="http://codes.wmo.int/wmdr/observingMethodAtmosphere/303"/>
+				</wmdr:Equipment>
+			</wmdr:subEquipment>
+		</wmdr:Equipment>
+	</wmdr:equipment>
+</wmdr:WIGOSMetadataRecord>
