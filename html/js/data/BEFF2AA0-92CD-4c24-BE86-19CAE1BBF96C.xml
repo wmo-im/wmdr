@@ -1,6 +1,0 @@
-tocTab[tocTab.length] = new Array("0.1.1.2.8:1", "", "«Requirement» observation-feature-of-interest", "EARoot/EA1/EA1/EA2/EA8/EA138.html", "19.png", "E22801", "0", "", "Requirement0","{215AAC5E-3ABE-403c-B715-7285AF727DAC}");
-tocTab[tocTab.length] = new Array("0.1.1.2.8:2", "", "«Requirement» observation-observed-property", "EARoot/EA1/EA1/EA2/EA8/EA139.html", "19.png", "E22804", "0", "", "Requirement0","{542F41CA-3776-46d2-ACBD-1343CAC5548F}");
-tocTab[tocTab.length] = new Array("0.1.1.2.8:3", "", "«Requirement» observation-process", "EARoot/EA1/EA1/EA2/EA8/EA140.html", "19.png", "E22803", "0", "", "Requirement0","{51FE9211-4604-408c-8E79-4AD6488A0A0B}");
-tocTab[tocTab.length] = new Array("0.1.1.2.8:4", "", "«Requirement» observation-result", "EARoot/EA1/EA1/EA2/EA8/EA141.html", "19.png", "E22805", "0", "", "Requirement0","{B4699FFC-6C70-4c1a-99E8-2891F56C6E39}");
-tocTab[tocTab.length] = new Array("0.1.1.2.8:5", "", "«Requirement» observation-valid", "EARoot/EA1/EA1/EA2/EA8/EA142.html", "19.png", "E22802", "0", "", "Requirement0","{50ED1B87-B626-4b84-98EF-A4F4B0DD4FE9}");
-tocTab[tocTab.length] = new Array("0.1.1.2.8:6", "", "«Requirement» unique-observed-variable", "EARoot/EA1/EA1/EA2/EA8/EA143.html", "19.png", "E22806", "0", "", "Requirement0","{DA7BAD8E-EC2A-4ff7-9045-1B77DFE23C00}");
