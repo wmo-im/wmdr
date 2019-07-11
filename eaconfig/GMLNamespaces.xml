@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Namespaces>
+	<GMLNS version="3.2.1">
+		<Namespace xmlns="xlink" targetNamespace="http://www.w3.org/1999/xlink" xsdDocument="http://www.w3.org/1999/xlink.xsd"/>
+		<Namespace xmlns="gml" targetNamespace="http://www.opengis.net/gml/3.2" xsdDocument="http://schemas.opengis.net/gml/3.2.1/gml.xsd"/>
+		<Namespace xmlns="gmd" targetNamespace="http://www.isotc211.org/2005/gmd" xsdDocument="http://schemas.opengis.net/iso/19139/20070417/gmd/gmd.xsd"/>
+		<Namespace xmlns="gco" targetNamespace="http://www.isotc211.org/2005/gco" xsdDocument="http://schemas.opengis.net/iso/19139/20070417/gco/gco.xsd"/>
+		<Namespace xmlns="gmlcov" targetNamespace="http://www.opengis.net/gmlcov/1.0" xsdDocument="http://schemas.opengis.net/gmlcov/1.0/coverage.xsd"/>
+		<Namespace xmlns="om" targetNamespace="http://www.opengis.net/om/2.0" xsdDocument="http://schemas.opengis.net/om/2.0/observation.xsd"/>
+		<Namespace xmlns="sam" targetNamespace="http://www.opengis.net/sampling/2.0" xsdDocument="http://schemas.opengis.net/sampling/2.0/samplingFeature.xsd"/>
+		<Namespace xmlns="sams" targetNamespace="http://www.opengis.net/samplingSpatial/2.0" xsdDocument="http://schemas.opengis.net/samplingSpatial/2.0/spatialSamplingFeature.xsd"/>
+		<Namespace xmlns="spec" targetNamespace="http://www.opengis.net/samplingSpecimen/2.0" xsdDocument="http://schemas.opengis.net/samplingSpecimen/2.0/specimen.xsd"/>
+		<Namespace xmlns="cgu" targetNamespace="http://xmlns.geosciml.org/Utilities/3.0" xsdDocument="http://schemas.geosciml.org/cgiutilities/3.0/cgiUtilities.xsd"/>
+		<Namespace xmlns="gsml" targetNamespace="http://xmlns.geosciml.org/GeoSciML-Core/3.0" xsdDocument="http://schemas.geosciml.org/geosciml-core/3.0/geosciml-core.xsd"/>
+		<Namespace xmlns="gt" targetNamespace="http://xmlns.geosciml.org/GeologicTime/3.0" xsdDocument="http://schemas.geosciml.org/geotime/3.0/geologicTime.xsd"/>
+		<Namespace xmlns="gbh" targetNamespace="http://xmlns.geosciml.org/Borehole/3.0" xsdDocument="http://schemas.geosciml.org/borehole/3.0/borehole.xsd"/>
+		<Namespace xmlns="glab" targetNamespace="http://xmlns.geosciml.org/LaboratoryAnalysis-Specimen/3.0" xsdDocument="http://schemas.geosciml.org/laboratoryanalysis-specimen/3.0/laboratoryAnalysis-Specimen.xsd"/>
+		<Namespace xmlns="gpp" targetNamespace="http://xmlns.geosciml.org/PhysicalProperties/3.0" xsdDocument="http://schemas.geosciml.org/physicalproperties/3.0/physicalProperties.xsd"/>
+		<Namespace xmlns="trs" targetNamespace="http://xmlns.geosciml.org/TemporalReferenceSystem/3.0" xsdDocument="http://schemas.geosciml.org/temporalreferencesystem/3.0/trs.xsd"/>
+		<!-- add more as required -->
+	</GMLNS>
+	<GMLNS version="3.3">
+		<Namespace xmlns="gmlxbt" targetNamespace="http://www.opengis.net/gml/3.3/xbt" xsdDocument="http://schemas.opengis.net/gml/3.3/extdBaseTypes.xsd"/>
+		<Namespace xmlns="gmlce" targetNamespace="http://www.opengis.net/gml/3.3/ce" xsdDocument="http://schemas.opengis.net/gml/3.3/geometryCompact.xsd"/>
+		<Namespace xmlns="gmltin" targetNamespace="http://www.opengis.net/gml/3.3/tin" xsdDocument="http://schemas.opengis.net/gml/3.3/tin.xsd"/>
+		<Namespace xmlns="gmllr" targetNamespace="http://www.opengis.net/gml/3.3/lr" xsdDocument="http://schemas.opengis.net/gml/3.3/linearRef.xsd"/>
+		<Namespace xmlns="gmllrtr" targetNamespace="http://www.opengis.net/gml/3.3/lrtr" xsdDocument="http://schemas.opengis.net/gml/3.3/linearRefTowardsReferent.xsd"/>
+		<Namespace xmlns="gmllro" targetNamespace="http://www.opengis.net/gml/3.3/lro" xsdDocument="http://schemas.opengis.net/gml/3.3/linearRefOffset.xsd"/>
+		<Namespace xmlns="gmllrov" targetNamespace="http://www.opengis.net/gml/3.3/lrov" xsdDocument="http://schemas.opengis.net/gml/3.3/linearRefOffsetVector.xsd"/>
+		<Namespace xmlns="gmlrgrid" targetNamespace="http://www.opengis.net/gml/3.3/rgrid" xsdDocument="http://schemas.opengis.net/gml/3.3/referenceableGrid.xsd"/>
+		<Namespace xmlns="gmlexr" targetNamespace="http://www.opengis.net/gml/3.3/exr" xsdDocument="http://schemas.opengis.net/gml/3.3/extdEncRule.xsd"/>
+		<Namespace xmlns="xlink" targetNamespace="http://www.w3.org/1999/xlink" xsdDocument="http://www.w3.org/1999/xlink.xsd"/>
+		<Namespace xmlns="gml" targetNamespace="http://www.opengis.net/gml/3.2" xsdDocument="http://schemas.opengis.net/gml/3.2.1/gml.xsd"/>
+		<Namespace xmlns="gmd" targetNamespace="http://www.isotc211.org/2005/gmd" xsdDocument="http://schemas.opengis.net/iso/19139/20070417/gmd/gmd.xsd"/>
+		<Namespace xmlns="gco" targetNamespace="http://www.isotc211.org/2005/gco" xsdDocument="http://schemas.opengis.net/iso/19139/20070417/gco/gco.xsd"/>
+		<Namespace xmlns="gmlcov" targetNamespace="http://www.opengis.net/gmlcov/1.0" xsdDocument="http://schemas.opengis.net/gmlcov/1.0/coverage.xsd"/>
+		<Namespace xmlns="om" targetNamespace="http://www.opengis.net/om/2.0" xsdDocument="http://schemas.opengis.net/om/2.0/observation.xsd"/>
+		<Namespace xmlns="sam" targetNamespace="http://www.opengis.net/sampling/2.0" xsdDocument="http://schemas.opengis.net/sampling/2.0/samplingFeature.xsd"/>
+		<Namespace xmlns="sams" targetNamespace="http://www.opengis.net/samplingSpatial/2.0" xsdDocument="http://schemas.opengis.net/samplingSpatial/2.0/spatialSamplingFeature.xsd"/>
+		<Namespace xmlns="spec" targetNamespace="http://www.opengis.net/samplingSpecimen/2.0" xsdDocument="http://schemas.opengis.net/samplingSpecimen/2.0/specimen.xsd"/>
+		<Namespace xmlns="cgu" targetNamespace="http://xmlns.geosciml.org/Utilities/3.0" xsdDocument="http://schemas.geosciml.org/cgiutilities/3.0/cgiUtilities.xsd"/>
+		<Namespace xmlns="gsml" targetNamespace="http://xmlns.geosciml.org/GeoSciML-Core/3.0" xsdDocument="http://schemas.geosciml.org/geosciml-core/3.0/geosciml-core.xsd"/>
+		<Namespace xmlns="gt" targetNamespace="http://xmlns.geosciml.org/GeologicTime/3.0" xsdDocument="http://schemas.geosciml.org/geotime/3.0/geologicTime.xsd"/>
+		<Namespace xmlns="gbh" targetNamespace="http://xmlns.geosciml.org/Borehole/3.0" xsdDocument="http://schemas.geosciml.org/borehole/3.0/borehole.xsd"/>
+		<Namespace xmlns="glab" targetNamespace="http://xmlns.geosciml.org/LaboratoryAnalysis-Specimen/3.0" xsdDocument="http://schemas.geosciml.org/laboratoryanalysis-specimen/3.0/laboratoryAnalysis-Specimen.xsd"/>
+		<Namespace xmlns="gpp" targetNamespace="http://xmlns.geosciml.org/PhysicalProperties/3.0" xsdDocument="http://schemas.geosciml.org/physicalproperties/3.0/physicalProperties.xsd"/>
+		<Namespace xmlns="trs" targetNamespace="http://xmlns.geosciml.org/TemporalReferenceSystem/3.0" xsdDocument="http://schemas.geosciml.org/temporalreferencesystem/3.0/trs.xsd"/>
+		<!-- add more as required -->
+		<Namespace xmlns="metce" targetNamespace="http://def.wmo.int/metce/2013" xsdDocument="http://schemas.wmo.int/metce/1.0/metce.xsd"/>
+		<Namespace xmlns="opm" targetNamespace="http://def.wmo.int/opm/2013" xsdDocument="http://schemas.wmo.int/opm/1.0/opm.xsd"/>
+		<Namespace xmlns="wmdr" targetNamespace="http://def.wmo.int/wmdr/2016" xsdDocument="wmdr.xsd"/>
+	</GMLNS>
+</Namespaces>
