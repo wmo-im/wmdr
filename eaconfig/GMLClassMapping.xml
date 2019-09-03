@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+	name         = International Standard UML Class name
+	element      = GML Object Element
+	type         = GML Type
+	propertyType = GML Property Type
+				   Values : #APT# = Anonymous PropertyType
+							#AMDPT# = Anonymous Abstract Metadata PropertyType
+	typeContent  = specifies if the Type can be used directly in the Application Schema
+-->
+<ClassMapping>
+	<!-- ISO/TS 19103 -->
+	<Class name="Integer" type="integer" propertyType="integer" typeContent="simple"/>
+	<Class name="Character" type="string" propertyType="string" typeContent="simple"/>
+	<Class name="CharacterString" type="string" propertyType="string" typeContent="simple"/>
+	<Class name="Boolean" type="boolean" propertyType="boolean" typeContent="simple"/>
+	<Class name="Number" type="double" propertyType="double" typeContent="simple"/>
+	<Class name="Real" type="double" propertyType="double" typeContent="simple"/>
+	<Class name="Date" type="date" propertyType="date" typeContent="simple"/>
+	<Class name="DateTime" type="dateTime" propertyType="dateTime" typeContent="simple"/>
+	<Class name="Decimal" type="double" propertyType="double" typeContent="simple"/>
+	<Class name="Vector" type="gml:VectorType" propertyType="gml:VectorType" typeContent="simple"/>
+	<Class name="GenericName" type="gml:CodeType" propertyType="gml:CodeType" typeContent="simple"/>
+	<Class name="LocalName" type="gml:CodeType" propertyType="gml:CodeType" typeContent="simple"/>
+	<Class name="ScopedName" type="gml:CodeType" propertyType="gml:CodeType" typeContent="simple"/>
+	<Class name="Distance" type="gml:LengthType" propertyType="gml:LengthType" typeContent="simple"/>
+	<Class name="Length" type="gml:LengthType"  propertyType="gml:LengthType" typeContent="simple"/>
+	<Class name="Angle" type="gml:AngleType" propertyType="gml:AngleType" typeContent="simple"/>
+	<Class name="Speed" type="gml:SpeedType" propertyType="gml:SpeedType" typeContent="simple"/>
+	<Class name="Velocity" type="gml:SpeedType" propertyType="gml:SpeedType" typeContent="simple"/>
+	<Class name="Scale" type="gml:ScaleType" propertyType="gml:ScaleType" typeContent="simple"/>
+	<Class name="Area" type="gml:AreaType" propertyType="gml:AreaType" typeContent="simple"/>
+	<Class name="Volume" type="gml:VolumeType" propertyType="gml:VolumeType" typeContent="simple"/>
+	<Class name="Measure" type="gml:MeasureType" propertyType="gml:MeasureType" typeContent="simple"/>  	
+	<Class name="UnitOfMeasure" type="gml:UnitOfMeasureType" propertyType="gml:UnitOfMeasureType"/>
+	<Class name="Record" element="gco:Record" type="gco:Record_Type" propertyType="#APT#"/>
+	<Class name="RecordType" element="gco:RecordType" type="gco:RecordType_Type" propertyType="#APT#"/>
+	<Class name="Sign" type="gml:SignType" propertyType="gml:SignType" typeContent="simple"/>
+	<Class name="Time" type="time" propertyType="time" typeContent="simple"/>
+	<Class name="Year" type="gYear" propertyType="gYear" typeContent="simple"/>
+	<Class name="Any" element="gml:AbstractObject" propertyType="#APT#"/>
+	<Class name="Dictionary" element="gml:Dictionary" type="gml:DictionaryType" propertyType="#APT#"/>
+	<!-- ISO 19136 / GML -->
+	<Class name="doubleOrNilReason" type="gml:doubleOrNilReason" propertyType="gml:doubleOrNilReason" typeContent="simple"/>
+	<Class name="MeasureList" type="gml:MeasureListType" propertyType="gml:MeasureListType"/>
+	<!-- ISO 19156 -->
+	<Class name="GFI_Feature" element="gml:AbstractFeature" type="gml:AbstractFeatureType" propertyType="gml:FeaturePropertyType"/>
+	<Class name="OM_Observation" element="om:OM_Observation" type="om:OM_ObservationType" propertyType="om:OM_ObservationPropertyType"/>
+	<Class name="OM_Process" propertyType="om:OM_ProcessPropertyType"/>
+	<Class name="SF_SamplingFeature" element="sam:SF_SamplingFeature" type="sam:SF_SamplingFeatureType" propertyType="sam:SF_SamplingFeaturePropertyType"/>
+	<Class name="SamplingFeatureComplex" element="sam:SamplingFeatureComplex" type="sam:SamplingFeatureComplexType" propertyType="sam:SamplingFeatureComplexPropertyType"/>
+	<Class name="SF_SamplingFeatureCollection" element="sam:SF_SamplingFeatureCollection" type="sam:SF_SamplingFeatureCollectionType" propertyType="sam:SF_SamplingFeatureCollectionPropertyType"/>
+	<Class name="SF_Process" propertyType="sam:SF_ProcessPropertyType"/>
+	<Class name="SF_SpatialSamplingFeature" element="sams:SF_SpatialSamplingFeature" type="sams:SF_SpatialSamplingFeatureType" propertyType="sams:SF_SpatialSamplingFeaturePropertyType"/>
+	<Class name="SF_Specimen" element="spec:SF_Specimen" type="spec:SF_SpecimenType" propertyType="spec:SF_SpecimenPropertyType"/>	
+	<Class name="PreparationStep" element="spec:PreparationStep" type="spec:PreparationStepType" propertyType="spec:PreparationStepPropertyType"/>	
+	<!-- GML Cov 09-146r1 -->
+	<Class name="Coverage" element="gmlcov:AbstractCoverage" type="gmlcov:AbstractCoverageType" propertyType="#APT#"/>
+	<Class name="CoverageByDomainAndRange" element="gmlcov:AbstractCoverage" type="gmlcov:AbstractCoverageType" propertyType="#APT#"/>
+	<Class name="DiscreteCoverage" element="gmlcov:AbstractDiscreteCoverage" type="gmlcov:AbstractDiscreteCoverageType" propertyType="#APT#"/>
+	<Class name="ContinuousCoverage" element="gmlcov:AbstractContinuousCoverage" type="gmlcov:AbstractContinuousCoverageType" propertyType="#APT#"/>
+	<Class name="MultiPointCoverage" element="gmlcov:MultiPointCoverage" type="gmlcov:AbstractDiscreteCoverageType" propertyType="#APT#"/>
+	<Class name="MultiCurveCoverage" element="gmlcov:MultiCurveCoverage" type="gmlcov:AbstractDiscreteCoverageType" propertyType="#APT#"/>
+	<Class name="MultiSurfaceCoverage" element="gmlcov:MultiSurfaceCoverage" type="gmlcov:AbstractDiscreteCoverageType" propertyType="#APT#"/>
+	<Class name="MultiSolidCoverage" element="gmlcov:MultiSolidCoverage" type="gmlcov:AbstractDiscreteCoverageType" propertyType="#APT#"/>
+	<Class name="GridCoverage" element="gmlcov:GridCoverage" type="gmlcov:AbstractDiscreteCoverageType" propertyType="#APT#"/>
+	<Class name="RectifiedGridCoverage" element="gmlcov:RectifiedGridCoverage" type="gmlcov:AbstractDiscreteCoverageType" propertyType="#APT#"/>
+	<Class name="ReferenceableGridCoverage" element="gmlcov:ReferenceableGridCoverage" type="gmlcov:AbstractDiscreteCoverageType" propertyType="#APT#"/>
+	<!-- GeoSciML -->
+	<Class name="CGI_NumericRange" element="cgu:CGI_NumericRange" type="cgu:CGI_NumericRangeType" propertyType="cgu:CGI_NumericRangePropertyType"/>
+	<!-- ISO 19118 -->
+	<Class name="Binary" type="hexBinary" propertyType="hexBinary" typeContent="simple"/>
+	<!-- ISO 19107 Geometry -->
+	<Class name="GM_Object" element="gml:AbstractGeometry" type="gml:AbstractGeometryType" propertyType="gml:GeometryPropertyType"/>
+	<Class name="GM_Primitive" element="gml:AbstractGeometricPrimitive" type="gml:AbstractGeometricPrimitiveType" propertyType="gml:GeometricPrimitivePropertyType"/>
+	<Class name="DirectPosition" type="gml:DirectPositionType" propertyType="gml:DirectPositionType" typeContent="simple"/>
+	<Class name="GM_Position" element="gml:Point" type="gml:PointType" propertyType="gml:PointPropertyType"/>
+	<Class name="GM_Point" element="gml:Point" type="gml:PointType" propertyType="gml:PointPropertyType"/>
+	<Class name="GM_Curve" element="gml:Curve" type="gml:CurveType" propertyType="gml:CurvePropertyType"/>
+	<Class name="GM_Surface" element="gml:Surface" type="gml:SurfaceType" propertyType="gml:SurfacePropertyType"/>
+	<Class name="GM_PolyhedralSurface" element="gml:PolyhedralSurface" type="gml:PolyhedralSurfaceType" propertyType="#APT#"/>
+	<Class name="GM_TriangulatedSurface" element="gml:TriangulatedSurface" type="gml:TriangulatedSurfaceType" propertyType="#APT#"/>
+	<Class name="GM_Tin" element="gml:Tin" type="gml:TinType" propertyType="#APT#"/>
+	<Class name="GM_Solid" element="gml:Solid" type="gml:SolidType" propertyType="gml:SolidPropertyType"/>
+	<Class name="GM_OrientableCurve" element="gml:AbstractCurve" type="gml:AbstractCurveType" propertyType="gml:CurvePropertyType"/>
+	<Class name="GM_OrientableSurface" element="gml:AbstractSurface" type="gml:AbstractSurfaceType" propertyType="gml:SurfacePropertyType"/>
+	<Class name="GM_Ring" element="gml:Ring" type="gml:RingType" />
+	<Class name="GM_Shell" element="gml:Shell" type="gml:ShellType"/>
+	<Class name="GM_Aggregate" element="gml:MultiGeometry" type="gml:MultiGeometryType" propertyType="gml:MultiGeometryPropertyType"/>
+	<Class name="GM_CompositePoint" element="gml:Point" type="gml:PointType" propertyType="#APT#"/>
+	<Class name="GM_CompositeCurve" element="gml:CompositeCurve" type="gml:CompositeCurveType" propertyType="#APT#"/>
+	<Class name="GM_CompositeSurface" element="gml:CompositeSurface" type="gml:CompositeSurfaceType" propertyType="#APT#"/>
+	<Class name="GM_CompositeSolid" element="gml:CompositeSolid" type="gml:CompositeSolidType" propertyType="#APT#"/>
+	<Class name="GM_Complex" element="gml:GeometricComplex" type="gml:GeometricComplexType" propertyType="gml:GeometricComplexPropertyType"/>
+	<Class name="GM_MultiPoint" element="gml:MultiPoint" type="gml:MultiPointType" propertyType="gml:MultiPointPropertyType"/>
+	<Class name="GM_MultiCurve" element="gml:MultiCurve" type="gml:MultiCurveType" propertyType="gml:MultiCurvePropertyType"/>
+	<Class name="GM_MultiSurface" element="gml:MultiSurface" type="gml:MultiSurfaceType" propertyType="gml:MultiSurfacePropertyType"/>
+	<Class name="GM_MultiSolid" element="gml:MultiSolid" type="gml:MultiSolidType" propertyType="gml:MultiSolidPropertyType"/>
+	<Class name="GM_MultiPrimitive" element="gml:MultiGeometry" type="gml:MultiGeometryType" propertyType="gml:MultiGeometryPropertyType"/>
+	<Class name="GM_CurveSegment" element="gml:AbstractCurveSegment" type="gml:AbstractCurveSegmentType" propertyType="#APT#"/>
+	<Class name="GM_Arc" element="gml:Arc" type="gml:ArcType" propertyType="#APT#"/>
+	<Class name="GM_ArcByBulge" element="gml:ArcByBulge" type="gml:ArcByBulgeType" propertyType="#APT#"/>
+	<Class name="GM_ArcString" element="gml:ArcString" type="gml:ArcStringType" propertyType="#APT#"/>
+	<Class name="GM_ArcStringByBulge" element="gml:ArcStringByBulge" type="gml:ArcStringByBulgeType" propertyType="#APT#"/>
+	<Class name="GM_Bezier" element="gml:Bezier" type="gml:BezierType" propertyType="#APT#"/>
+	<Class name="GM_BsplineCurve" element="gml:BSpline" type="gml:BSplineType" propertyType="#APT#"/>
+	<Class name="GM_Circle" element="gml:Circle" type="gml:CircleType" propertyType="#APT#"/>
+	<Class name="GM_Clothoid" element="gml:Clothoid" type="gml:ClothoidType" propertyType="#APT#"/>
+	<Class name="GM_CubicSpline" element="gml:CubicSpline" type="gml:CubicSplineType" propertyType="#APT#"/>
+	<Class name="GM_GeodesicString" element="gml:GeodesicString" type="gml:GeodesicStringType" propertyType="#APT#"/>
+	<Class name="GM_LineString" element="gml:LineStringSegment" type="gml:LineStringSegmentType" propertyType="#APT#"/>
+	<Class name="GM_OffsetCurve" element="gml:OffsetCurve" type="gml:OffsetCurveType" propertyType="#APT#"/>
+	<Class name="GM_SurfacePatch" element="gml:AbstractSurfacePatch" type="gml:AbstractSurfacePatchType" propertyType="#APT#"/>
+	<Class name="GM_GriddedSurface" element="gml:AbstractGriddedSurface" type="gml:AbstractGriddedSurfaceType" propertyType="#APT#"/>
+	<Class name="GM_ParametricCurveSurface" element="gml:AbstractParametricCurveSurface" type="gml:AbstractParametricCurveSurfaceType" propertyType="#APT#"/>
+	<Class name="GM_Cone" element="gml:Cone" type="gml:ConeType" propertyType="#APT#"/>
+	<Class name="GM_Cylinder" element="gml:Cylinder" type="gml:CylinderType" propertyType="#APT#"/>
+	<Class name="GM_Geodesic" element="gml:Geodesic" type="gml:GeodesicType" propertyType="#APT#"/>
+	<Class name="GM_Polygon" element="gml:PolygonPatch" type="gml:PolygonPatchType" propertyType="#APT#"/>
+	<Class name="GM_Sphere" element="gml:Sphere" type="gml:SphereType" propertyType="#APT#"/>
+	<Class name="GM_Triangle" element="gml:Triangle" type="gml:TriangleType" propertyType="#APT#"/>
+	<Class name="GM_Envelope" element="gml:Envelope" type="gml:EnvelopeType" propertyType="#APT#"/>
+	<!-- ISO 19107 Topology -->
+	<Class name="TP_Object" element="gml:AbstractTopology" type="gml:AbstractTopologyType" propertyType="#APT#"/>
+	<Class name="TP_Node" element="gml:Node" type="gml:NodeType" propertyType="gml:DirectedNodePropertyType"/>
+	<Class name="TP_Edge" element="gml:Edge" type="gml:EdgeType" propertyType="gml:DirectedEdgePropertyType"/>
+	<Class name="TP_Face" element="gml:Face" type="gml:FaceType" propertyType="gml:DirectedFacePropertyType"/>
+	<Class name="TP_Solid" element="gml:TopoSolid" type="gml:TopoSolidType" propertyType="gml:DirectedTopoSolidPropertyType"/>
+	<Class name="TP_DirectedNode" propertyType="gml:DirectedNodePropertyType"/>
+	<Class name="TP_DirectedEdge" propertyType="gml:DirectedEdgePropertyType"/>
+	<Class name="TP_DirectedFace" propertyType="gml:DirectedFacePropertyType"/>
+	<Class name="TP_DirectedSolid" propertyType="gml:DirectedTopoSolidPropertyType"/>
+	<Class name="TP_Complex" element="gml:TopoComplex" type="gml:TopoComplexType" propertyType="gml:TopoComplexMemberType"/>
+	<!-- ISO 19108 -->
+	<Class name="TM_Object" element="gml:AbstractTimeObject" type="gml:AbstractTimeObjectType" propertyType="#APT#"/>
+	<Class name="TM_Complex" element="gml:AbstractTimeComplex" type="gml:AbstractTimeComplexType" propertyType="#APT#"/>
+	<Class name="TM_GeometricPrimitive" element="gml:AbstractTimeGeometricPrimtive" type="gml:AbstractTimeGeometricPrimtiveType" propertyType="gml:TimeGeometricPrimtiveProertyType"/>
+	<Class name="TM_Instant" element="gml:TimeInstant" type="gml:TimeInstantType" propertyType="gml:TimeInstantPropertyType"/>
+	<Class name="TM_Period" element="gml:TimePeriod" type="gml:TimePeriodType" propertyType="gml:TimePeriodPropertyType"/>
+	<Class name="TM_TopologicalComplex" element="gml:TimeTopologyComplex" type="gml:TimeTopologyComplexType" propertyType="gml:TimeTopologyComplexPropertyType"/>
+	<Class name="TM_TopologicalPrimitive" element="gml:AbstractTimeTopologyPrimtive" type="gml:AbstractTimeTopologyPrimtiveType" propertyType="gml:TimeTopologyPrimtivePropertyType"/>
+	<Class name="TM_Node" element="gml:TimeNode" type="gml:TimeNodeType" propertyType="gml:TimeNodePropertyType"/>
+	<Class name="TM_Edge" element="gml:TimeEdge" type="gml:TimeEdgeType" propertyType="gml:TimeEdgePropertyType"/>
+	<Class name="TM_PeriodDuration" type="duration" propertyType="duration" typeContent="simple"/>
+	<Class name="TM_IntervalLength" type="gml:TimeIntervalLengthType" propertyType="gml:TimeIntervalLengthType" typeContent="simple"/>
+	<Class name="TM_Position" type="gml:TimePositionType" propertyType="gml:TimePositionType" typeContent="simple"/>
+	<Class name="TM_Coordinate" type="decimal" propertyType="decimal" typeContent="simple"/>
+	<Class name="TM_CalDate" type="gml:CalDate" propertyType="gml:CalDate" typeContent="simple"/>
+	<Class name="TM_ClockTime" type="time" propertyType="time" typeContent="simple"/>
+	<Class name="TM_DateAndTime" type="dateTime" propertyType="dateTime" typeContent="simple"/>
+	<Class name="TM_Calendar" element="gml:TimeCalendar" type="gml:TimeCalendarType" propertyType="gml:TimeCalendarPropertyType"/>
+	<Class name="TM_CalendarEra" element="gml:TimeCalendarEra" type="gml:TimeCalendarEraType" propertyType="gml:TimeCalendarEraPropertyType"/>
+	<Class name="TM_Clock" element="gml:TimeClock" type="gml:TimeClockType" propertyType="gml:TimeClockPropertyType"/>
+	<Class name="TM_CoordinateSystem" element="gml:TimeCoordinateSystem" type="gml:TimeCoordinateSystemType" propertyType="#APT#"/>
+	<Class name="TM_OrdinalReferenceSystem" element="gml:TimeOrdinalReferenceSystem" type="gml:TimeOrdinalReferenceSystemType" propertyType="#APT#"/>
+	<Class name="TM_OrdinalEra" element="gml:TimeOrdinalEra" type="gml:TimeOrdinalEraType" propertyType="gml:TimeOrdinalEraPropertyType"/>
+	<Class name="TM_Duration" type="duration" propertyType="duration" typeContent="simple"/>
+	<!-- ISO 19111 -->
+	<Class name="SC_CRS" element="gml:AbstractCRS" type="gml:AbstractCRSType" propertyType="gml:CRSPropertyType"/>
+	<!-- ISO 19112 -->
+	<Class name="SI_LocationInstance" type="gml:CodeType" propertyType="gml:CodeType" typeContent="simple"/>
+	<!-- ISO 19123 -->
+	<Class name="CV_Coverage" element="gml:Coverage" type="gml:AbstractCoverageType" propertyType="#APT#"/>
+	<Class name="CV_ContinuousCoverage" element="gml:AbstractContinuousCoverage" type="gml:AbstractContinuousCoverageType" propertyType="#APT#"/>
+	<Class name="CV_DiscreteCoverage" type="gml:DiscreteCoverageType" element="gml:AbstractDiscreteCoverage" propertyType="#APT#"/>
+	<Class name="CV_ContinuousQuadrilateralGridCoverage" element="gml:AbstractDiscreteCoverage" type="gml:DiscreteCoverageType" propertyType="#APT#"/>
+	<Class name="CV_DiscreteCurveCoverage" element="gml:AbstractDiscreteCoverage" type="gml:DiscreteCoverageType" propertyType="#APT#"/>
+	<Class name="CV_DiscreteGridPointCoverage" element="gml:AbstractDiscreteCoverage" type="gml:DiscreteCoverageType" propertyType="#APT#"/>
+	<Class name="CV_DiscretePointCoverage" element="gml:AbstractDiscreteCoverage" type="gml:DiscreteCoverageType" propertyType="#APT#"/>
+	<Class name="CV_DiscreteSurfaceCoverage" element="gml:AbstractDiscreteCoverage" type="gml:DiscreteCoverageType" propertyType="#APT#"/>
+	<Class name="CV_DiscreteSolidCoverage" element="gml:AbstractDiscreteCoverage" type="gml:DiscreteCoverageType" propertyType="#APT#"/>
+	<Class name="CV_RectifiedGrid" element="gml:RectifiedGrid" type="gml:RectifiedGridType" propertyType="#APT#"/>
+	<!-- ISO 19115 -->
+	<Class name="CI_OnlineResource" element="gmd:CI_OnlineResource" type="gmd:CI_OnlineResource_Type" propertyType="#AMDPT#"/>
+	<Class name="CI_Address" element="gmd:CI_Address" type="gmd:CI_Address_Type" propertyType="#AMDPT#"/>
+	<Class name="CI_Citation" element="gmd:CI_Citation" type="gmd:CI_Citation_Type" propertyType="#AMDPT#"/>
+	<Class name="CI_Contact" element="gmd:CI_Contact" type="gmd:CI_Contact_Type" propertyType="#AMDPT#"/>
+	<Class name="CI_ResponsibleParty" element="gmd:CI_ResponsibleParty" type="gmd:CI_ResponsibleParty_Type" propertyType="#AMDPT#"/>
+	<Class name="CI_Series" element="gmd:CI_Series" propertyType="#AMDPT#"/>
+	<Class name="CI_Telephone" element="gmd:CI_Telephone" type="gmd:CI_Telephone_Type" propertyType="#AMDPT#"/>
+	<Class name="LI_Lineage" element="gmd:LI_Lineage" propertyType="#AMDPT#"/>
+	<Class name="DQ_DataQuality" element="gmd:DQ_DataQuality" propertyType="#AMDPT#"/>
+	<Class name="DQ_RelativeInternalPositionalAccuracy" element="gmd:DQ_RelativeInternalPositionalAccuracy" propertyType="#AMDPT#"/>
+	<Class name="DQ_PositionalAccuracy" element="gmd:AbstractDQ_PositionalAccuracy" propertyType="#AMDPT#"/>
+	<Class name="DQ_QuantitativeResult" element="gmd:DQ_QuantitativeResult" propertyType="#AMDPT#"/>
+	<Class name="EX_Extent" element="gmd:EX_Extent" type="gmd:EX_Extent_Type" propertyType="#AMDPT#"/>
+	<Class name="EX_GeographicExtent" element="gmd:AbstractEX_GeographicExtent" type="gmd:AbstractEX_GeographicExtent_Type" propertyType="#AMDPT#"/>
+	<Class name="EX_BoundingPolygon" element="gmd:EX_BoundingPolygon" type="gmd:EX_BoundingPolygon_Type" propertyType="#AMDPT#"/>
+	<Class name="MD_BrowseGraphic" element="gmd:MD_BrowseGraphic" propertyType="#AMDPT#"/>
+	<Class name="MD_ClassificationCode" element="gmd:MD_ClassificationCode" propertyType="#AMDPT#"/>
+	<Class name="MD_Format" element="gmd:MD_Format" propertyType="#AMDPT#"/>
+	<Class name="MD_Resolution" element="gmd:MD_Resolution" propertyType="#AMDPT#"/>
+	<Class name="MD_Identifier" element="gmd:MD_Identifier" propertyType="#AMDPT#"/>
+	<Class name="MD_ImagingConditionCode" element="gmd:MD_ImagingConditionCode" propertyType="#AMDPT#"/>
+	<Class name="MD_MediumNameCode" element="gmd:MD_MediumNameCode" propertyType="#AMDPT#"/>
+	<Class name="MD_Metadata" element="gmd:MD_Metadata" type="gmd:MD_Metadata_Type" propertyType="#AMDPT#"/>
+	<Class name="RS_Identifier" element="gmd:RS_Identifier" type="gmd:RS_Identifier_Type" propertyType="#AMDPT#"/>
+	<Class name="DQ_AbsoluteExternalPositionalAccuracy" element="gmd:DQ_AbsoluteExternalPositionalAccuracy" propertyType="#AMDPT#"/>	
+	<Class name="MD_CharacterSetCode" propertyType="gmd:MD_CharacterSetCode_PropertyType"/>
+	<Class name="LanguageCode" propertyType="gmd:LanguageCode_PropertyType"/>
+	<Class name="CountryCode" propertyType="gmd:Country_PropertyType"/>
+	<Class name="PT_FreeText" propertyType="gmd:PT_FreeText_PropertyType"/>
+	<Class name="PT_Locale" propertyType="gmd:PT_Locale_PropertyType"/>
+	<Class name="LocalisedCharacterString" propertyType="gmd:LocalisedCharacterString_PropertyType"/>
+	<!-- add more as required -->
+	<!-- WIGOS mappings -->
+	<Class name="URI" type="anyURI" propertyType="anyURI" typeContent="simple"/>
+	<Class name="CD_VerticalDatum" element="gml:VerticalDatum" type="gml:VerticalDatumType" propertyType="#APT#"/>
+	<Class name="Process" element="metce:Process" type="metce:ProcessType" propertyType="metce:ProcessPropertyType"/>
+	<Class name="ObservableProperty" propertyType="opm:ObservablePropertyPropertyType"/>
+	<Class name="MD_Distribution" element="gmd:MD_Distribution" type="gmd:MD_DistributionType" propertyType="#AMDPT#"/>
+</ClassMapping>
