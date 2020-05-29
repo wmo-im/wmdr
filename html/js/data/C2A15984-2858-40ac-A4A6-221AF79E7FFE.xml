@@ -1,4 +1,4 @@
-tocTab[tocTab.length] = new Array("0.2:1", "", "Requirements Classes", "EARoot/EA2/EA79.htm", "175.png", "3873", "0", "", "Logical diagram0","{20F68445-C728-4ea4-8D99-ABDF309CE9E5}");
+tocTab[tocTab.length] = new Array("0.2:1", "", "Requirements Classes", "EARoot/EA2/EA79.htm", "175.png", "1210", "0", "", "Logical diagram0","{20F68445-C728-4ea4-8D99-ABDF309CE9E5}");
 tocTab[tocTab.length] = new Array("0.2.1", "1", "«RequirementsClass» xml-rules", "EARoot/EA2/EA1/EA95.htm", "4.png", "", "", "{517BC6F0-1425-4d5d-8D3A-A0943F5C1444}", "Package");
 tocTab[tocTab.length] = new Array("0.2.2", "1", "«RequirementsClass» time-encoding", "EARoot/EA2/EA2/EA99.htm", "4.png", "", "", "{AC15458E-9B1A-4f57-BB20-3F2C3196083B}", "Package");
 tocTab[tocTab.length] = new Array("0.2.3", "1", "«RequirementsClass» metadata-record", "EARoot/EA2/EA3/EA101.htm", "4.png", "", "", "{36D0C154-A3AD-40bd-B5B9-1C917262252B}", "Package");
