@@ -1,0 +1,257 @@
+Exporting package to 'C:\Users\jkl\AppData\Local\Temp\eaXrefTempXMI.xml'
+Retrieving data for export: diagram elements
+Retrieving data for export: links
+Retrieving data for export: constraints
+Retrieving data for export: attribute tagged values
+Retrieving data for export: operation tagged values
+Retrieving data for export: operation parameter tagged values
+Retrieving data for export: connector tagged values
+Completed data retrieval
+Pre-processing export tree...
+Completed pre-processing
+Processing package: WMDR
+Element:0: WMDR
+Processing package: WMDR
+Element:1: Process
+Element:2: 
+Element:3: Deployment
+Element:4: FacilitySet
+Element:5: Frequencies
+Element:6: EquipmentLog
+Element:7: ObservingCapability
+Element:8: 
+Element:9: SurfaceRoughness
+Element:10: ResponsibleParty
+Element:11: GeospatialLocation
+Element:12: TimeZone
+Element:13: MaintenanceReport
+Element:14: ReportingStatus
+Element:15: CodeLists
+Element:16: Header
+Element:17: ControlCheckReport
+Element:18: WIGOSMetadataRecord
+Element:19: Sampling
+Element:20: Information about Facilities and Equipment
+Element:21: SurfaceCover
+Element:22: DataGeneration
+Element:23: Details of the Observations, the Deployments and the Observing Process
+Element:24: LogEntry
+Element:25: TopographyBathymetry
+Element:26: 
+Element:27: Equipment
+Element:28: Information about data collections 
+Element:29: Territory
+Element:30: Processing
+Element:31: ProgramAffiliation
+Element:32: Attribution
+Element:33: Manual On Codes Text
+Element:34: InstrumentOperatingStatus
+Element:35: Reporting
+Element:36: ResultSet
+Element:37: Requirements Classes for Manual on Codes
+Element:38: ObservingFacility
+Element:39: FacilityLog
+Element:40: DataPolicy
+Element:41: Schedule
+Element:42: Log
+Element:43: Population
+Element:44: 
+Element:45: Description
+Element:46: EventReport
+Element:47: AbstractEnvironmentalMonitoringFacility
+Element:48: ClimateZone
+Diagram: HighLevelOverview
+Diagram: Environmental Monitoring Facilities
+Diagram: Equipment
+Diagram: Logging
+Diagram: Observations
+Diagram: Process and Deployment
+Processing package: Manual On Codes Text
+Element:49: equipment-log
+Element:50: xml-rules
+Element:51: facility-log
+Element:52: 
+Element:53: time-encoding
+Element:54: sampling
+Element:55: observation
+Element:56: processing
+Element:57: observing-facility
+Element:58: metadata-record
+Element:59: reporting
+Element:60: equipment
+Element:61: process
+Element:62: deployment
+Diagram: Manual On Codes Text
+Processing package: Requirements Classes for Manual on Codes
+Element:63: observing-facility
+Element:64: processing
+Element:65: metadata-record
+Element:66: process
+Element:67: xml-rules
+Element:68: equipment
+Element:69: deployment
+Element:70: equipment-log
+Element:71: sampling
+Element:72: facility-log
+Element:73: time-encoding
+Element:74: observation
+Element:75: reporting
+Diagram: Requirements Classes
+Processing package: xml-rules
+Element:76: valid-local-references
+Element:77: well-formed
+Element:78: xsd-valid
+Processing package: time-encoding
+Element:79: time-zone-explicit
+Processing package: metadata-record
+Element:80: record-valid
+Processing package: observing-facility
+Element:81: wmo-region
+Element:82: facility-type
+Element:83: reporting-status
+Element:84: local-topography
+Element:85: communication-method
+Element:86: program-affiliation
+Element:87: facility-valid
+Element:88: topographic-context
+Element:89: geopositioning-method
+Element:90: climate-zone
+Element:91: surface-cover
+Element:92: surface-cover-classification
+Element:93: territory-name
+Element:94: relative-elevation
+Element:95: surface-roughness
+Element:96: altitude-or-depth
+Processing package: facility-log
+Element:97: facility-log-entries-event-type
+Element:98: facility-log-entries
+Element:99: facility-log-valid
+Processing package: equipment
+Element:100: equipment-valid
+Element:101: geopositioning-method
+Processing package: equipment-log
+Element:102: equipment-log-entries-control-standard
+Element:103: equipment-log-entries
+Element:104: equipment-log-entries-control-location
+Element:105: equipment-log-entries-control-result
+Element:106: equipment-log-valid
+Processing package: observation
+Element:107: observation-feature-of-interest
+Element:108: observation-valid
+Element:109: observation-process
+Element:110: observation-observed-property
+Element:111: observation-result
+Element:112: unique-observed-variable
+Processing package: process
+Element:113: process-valid
+Processing package: sampling
+Element:114: sampling-valid
+Element:115: sampling-strategy
+Processing package: processing
+Element:116: processing-valid
+Element:117: observing-method
+Processing package: reporting
+Element:118: unit-of-measure
+Element:119: data-use-constraints
+Element:120: data-format
+Element:121: reference-time
+Element:122: level-of-data
+Element:123: reporting-valid
+Element:124: time-stamp-meaning
+Processing package: deployment
+Element:125: source-of-observation
+Element:126: application-area
+Element:127: exposure
+Element:128: deployment-valid
+Element:129: representativeness
+Element:130: instrument-operating-status
+Processing package: CodeLists
+Element:131: 
+Element:132: SurfaceCoverType
+Element:133: 
+Element:134: AltitudeOrDepthType
+Element:135: 
+Element:136: ObservingMethodType
+Element:137: 
+Element:138: ProgramOrNetworkAffiliationType
+Element:139: 
+Element:140: 
+Element:141: GeopositioningMethodType
+Element:142: 
+Element:143: LocalReferenceSurfaceType
+Element:144: DataFormatType
+Element:145: DataCommunicationMethodType
+Element:146: 
+Element:147: 
+Element:148: ObservingFacilityType
+Element:149: Local situation - these are related
+Element:150: 
+Element:151: 
+Element:152: 
+Element:153: 
+Element:154: FrequencyUseType
+Element:155: TimeStampMeaningType
+Element:156: PurposeOfFrequencyUseType
+Element:157: TraceabilityType
+Element:158: 
+Element:159: CoordinateReferenceSystemType
+Element:160: 
+Element:161: 
+Element:162: 
+Element:163: ControlStandardType
+Element:164: 
+Element:165: 
+Element:166: RelativeElevationType
+Element:167: 
+Element:168: ApplicationAreaType
+Element:169: SampleTreatmentType
+Element:170: ReferenceTimeType
+Element:171: SamplingProcedureType
+Element:172: EventType
+Element:173: LevelOfDataType
+Element:174: 
+Element:175: 
+Element:176: TopographicContextType
+Element:177: 
+Element:178: TimeZoneType
+Element:179: 
+Element:180: ClimateZoneType
+Element:181: 
+Element:182: SamplingStrategyType
+Element:183: ObservedVariableType
+Element:184: ReportingStatusType
+Element:185: WMORegionType
+Element:186: LocalTopographyType
+Element:187: 
+Element:188: TransmissionModeType
+Element:189: RepresentativenessType
+Element:190: Land Cover - these are related
+Element:191: ControlCheckLocationType
+Element:192: 
+Element:193: 
+Element:194: SurfaceCoverClassificationType
+Element:195: 
+Element:196: 
+Element:197: ExposureType
+Element:198: InstrumentControlResultType
+Element:199: 
+Element:200: SourceOfObservationType
+Element:201: 
+Element:202: UncertaintyEvalProcType
+Element:203: 
+Element:204: PolarizationType
+Element:205: SurfaceRoughnessType
+Element:206: InstrumentOperatingStatusType
+Element:207: 
+Element:208: MeasurementUnitType
+Element:209: 
+Element:210: QualityFlagType
+Element:211: TerritoryType
+Element:212: 
+Element:213: 
+Element:214: InstrumentControlScheduleType
+Element:215: DataPolicyType
+Element:216: CoordinatesReferenceSystemType
+Diagram: CodeLists
+Adding Document Item XML
+XMI Document Export Complete!

@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<wmdr:WIGOSMetadataRecord xmlns:wmdr="http://def.wmo.int/wmdr/2017" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:om="http://www.opengis.net/om/2.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:sam="http://www.opengis.net/sampling/2.0" xmlns:sams="http://www.opengis.net/samplingSpatial/2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" gml:id="id1" xsi:schemaLocation="http://def.wmo.int/wmdr/2017 http://schemas.wmo.int/wmdr/1.0RC9/wmdr.xsd">
+<wmdr:WIGOSMetadataRecord xmlns:wmdr="http://def.wmo.int/wmdr/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:om="http://www.opengis.net/om/2.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:sam="http://www.opengis.net/sampling/2.0" xmlns:sams="http://www.opengis.net/samplingSpatial/2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" gml:id="wmdr_0-20008-0-ARO" xsi:schemaLocation="http://def.wmo.int/wmdr/1.0 file:///H:/Public/git/wmdr/xsd/wmdr.xsd">
+<!-- NB: Verify xsi:schemaLocation 'file:///.../git/wmdr/xsd/wmdr.xsd' above before testing -->
+<!-- NB: Replace 'file:///.../git/wmdr/xsd/wmdr.xsd' with 'http://schemas.wmo.int/wmdr/1.0/wmdr.xsd' to use with remote schema -->
 	<wmdr:headerInformation owns="false">
 		<wmdr:Header/>
 	</wmdr:headerInformation>
@@ -8,6 +10,18 @@
 			<gml:identifier codeSpace="http://wigos.wmo.int">http://wigos.wmo.int/0-20008-0-JFJ</gml:identifier>
 			<gml:name>Jungfraujoch</gml:name>
 			<gml:name>JUNGFRAUJOCH</gml:name>
+			<wmdr:description>
+				<wmdr:Description>
+					<wmdr:description>The high alpine research station Jungfraujoch is situated on a mountain saddle between the two mountains Jungfrau (4158m asl) and Mönch (4099m asl). The station is located in the center of Europe at an altitude of 3580m asl and is surrounded by highly industrialized regions at much lower altitudes. This special geographical situation offers the opportunity to monitor background concentrations but also to investigate the transport of anthropogenic pollutants from the boundary layer to the free troposphere.
+					</wmdr:description>
+					<wmdr:validPeriod>
+						<gml:TimePeriod gml:id="id3">
+							<gml:beginPosition>1957-09-28T00:00:00</gml:beginPosition>
+							<gml:endPosition/>
+						</gml:TimePeriod>
+					</wmdr:validPeriod>
+				</wmdr:Description>
+			</wmdr:description>
 			<wmdr:responsibleParty>
 				<wmdr:ResponsibleParty>
 					<wmdr:responsibleParty>
@@ -84,18 +98,6 @@
 					</gmd:linkage>
 				</gmd:CI_OnlineResource>
 			</wmdr:onlineResource>
-			<wmdr:description>
-				<wmdr:Description>
-					<wmdr:description>The high alpine research station Jungfraujoch is situated on a mountain saddle between the two mountains Jungfrau (4158m asl) and Mönch (4099m asl). The station is located in the center of Europe at an altitude of 3580m asl and is surrounded by highly industrialized regions at much lower altitudes. This special geographical situation offers the opportunity to monitor background concentrations but also to investigate the transport of anthropogenic pollutants from the boundary layer to the free troposphere.
-					</wmdr:description>
-					<wmdr:validPeriod>
-						<gml:TimePeriod gml:id="id3">
-							<gml:beginPosition>1957-09-28T00:00:00</gml:beginPosition>
-							<gml:endPosition/>
-						</gml:TimePeriod>
-					</wmdr:validPeriod>
-				</wmdr:Description>
-			</wmdr:description>
 			<wmdr:facilityType xlink:href="http://codes.wmo.int/wmdr/FacilityType/landFixed"/>
 			<wmdr:dateEstablished>1957-09-28</wmdr:dateEstablished>
 			<wmdr:wmoRegion xlink:href="http://codes.wmo.int/wmdr/WMORegion/europe"/>
