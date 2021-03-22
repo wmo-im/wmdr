@@ -1,0 +1,29 @@
+== KPI-3-0: Observations/measurements - Basic information
+
+=== Status
+
+Draft
+
+=== Rules for implementation
+
+.Rules to assess the completeness of an observation/measurement
+|===
+|ID |Element |Rules |Maximum score | Weight
+
+|3-0-00
+|Geometry
+|Geometry is not specified as "unknown".
+|1
+|?
+
+|3-0-01
+|Deployments
+|The 	observation/measurement has at least one deployment.
+|1
+|?
+
+|===
+
+=== Guidance to score well on this assessment
+
+_Recommendations and hints/advice._
