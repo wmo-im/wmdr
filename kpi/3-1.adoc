@@ -1,0 +1,235 @@
+== KPI-2-0: 	Deployment
+
+=== Status
+
+Draft
+
+=== Rules for implementation
+
+.Deployment implementation rules
+|===
+|ID |Section |Element |Rules |Maximum score | Weight
+
+|3-1-00
+|General information
+|Source of observation
+|Source of observation is specified and not "unknown".
+|1
+|?
+
+|3-1-01
+|
+|Distance from reference surface
+|The distance from reference surface is specified.
+|1
+|?
+
+|3-1-02
+|
+|Type of reference surface
+|A type of reference surface is specified and the entry is not marked as "deprecated".
+|1
+|?
+
+|3-1-03
+|
+|Application area(s)
+|At least one application area is specified and not "unknown". 
+|1
+|?
+
+|3-1-04
+|
+|Exposure of instrument
+|The exposure classification is specified and not "unknown".
+|1
+|?
+
+|3-1-05
+|
+|Configuration of instrument
+|The customisation of instruments is described (free text input). 
+|1
+|?
+
+|3-1-06
+|
+|Representativeness of observation
+|Representativeness of observation is specified and not "unknown".
+|1
+|?
+
+|3-1-07
+|
+|Measurement leader / principal investigator
+|A responsible person is named.
+|1
+|?
+
+|3-1-08
+|
+|Organization
+|An organization is named and not "unknown".
+|1
+|?
+
+|3-1-09
+|
+|Near Real Time
+|Information on near-real time is added (Scores: Yes: 1/No: 2).
+
+If "Yes", a Near Real Time URL is added (Score: 1). 
+|2
+|?
+
+|3-1-10
+|
+|Data centre
+|A data centre is added.
+|1
+|?
+
+|3-1-11
+|
+|Data URL
+|A data URL is provided and valid.
+|1
+|?
+
+|3-1-12
+|
+|Data communication method
+|The data communication method is added and not "unknown".
+|1
+|?
+
+|3-1-13
+|
+|Instrument QA/QC schedule
+|Instrument QA/QC schedule is described (free text input).
+|1
+|?
+
+|3-1-14
+|
+|Maintenance schedule
+|Maintenance schedule is described (free text input).
+|1
+|?
+
+|3-1-15
+|Instrument characteristics
+|Instrument details (manufacturer, model, serial number)
+|A manufacturer named and not "unknown".
+
+A model is specified.
+
+A serial number is specified.
+|3
+|?
+
+|3-1-16
+|
+|Method details, method comments 
+|Method comments  or method details are given.
+|1
+|?
+
+|3-1-17
+|
+|Coordinates
+|Instrument coordinates are added (Latitude, longitude, elevation).
+
+A geopositioning method is specified and not "unknown".
+
+The coordinates are plausible (in vicinity of the facility).
+|3
+|?
+
+|3-1-18
+|
+|Instrument operating status
+|An instrument operating status is specified and not "unknown".
+
+The element has a begin date.
+|2
+|?
+
+|3-1-19
+|
+|Firmware version
+|A firmware version is specified (free text input).
+|1
+|?
+
+|3-1-20
+|
+|Observable range
+|The observable range is specified including a unit.
+|1
+|?
+
+|3-1-21
+|
+|Uncertainty (relative and absolute)
+|A plausible estimated value for the realtive uncertainty (in (0,1)) is specified.
+
+A value for the absolute uncertainty is specified.
+|2
+|?
+
+|3-1-22
+|
+|Drift per unit time (Expressed as % per year)
+|A plausibe value is given. (Text input consists only of one number.)
+|1
+|?
+
+|3-1-23
+|
+|Specification URL
+|A specification URL is added and valid.
+|1
+|?
+
+|3-1-24
+|
+|Uncertainty evaluation procedure
+|Uncertainty evaluation procedure is specified and not "unknown".
+|1
+|?
+
+|3-1-25
+|
+|Observation frequency and polarization
+|Observation frequency information are added.
+
+Bandwith is specified.
+
+Transmission mode is specified.
+
+Polarization is specified.
+|4
+|?
+
+|3-1-26
+|
+|Telecommunication frequency (Use of frequency, frequency, bandwidth)
+|Telecommunication frequency information are added.
+
+Bandwidth is specified.
+|2
+|?
+
+|3-1-27
+|Data generation
+|Data generation
+|The deployment has at least one data generation.
+|1
+|?
+
+|===
+
+=== Guidance to score well on this assessment
+
+_Recommendations and hints/advice._
