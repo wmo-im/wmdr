@@ -1,0 +1,128 @@
+== KPI-2-0: Station characteristics
+
+=== Status
+
+Draft
+
+=== Rules for implementation
+
+.Completeness of station characteristics implementation rules
+|===
+|ID |Element |Rules |Maximum score | Weight
+
+|2-0-00
+|Coordinates
+|A geopositioning method is specified and not "unknown".
+|1
+|?
+
+|2-0-01
+|The WMO region
+|The WMO region is specified and it matches the coordinates.
+|1
+|?
+
+|2-0-02
+|Time zone
+|A time zone is specified and it matches the coordinates. 
+
+A begin date is specified.
+|2
+|?
+
+|2-0-03
+|Supervising organization
+|A supervising organization is specified and not "unknown".
+
+A begin date is specified.
+|2
+|?
+
+|2-0-04
+|Station URL
+|URL is provided and valid.
+|1
+|?
+
+|2-0-05
+|Station URL
+|At least one other link is provided and all URLs are valid.
+|1
+|?
+
+|2-0-06
+|Site description
+|Site description is provided.
+
+Requirements for minumum and maximum length are fulfilled.
+|2
+|?
+
+|2-0-07
+|Climate zone
+|A climate zone is specified.
+
+A begin date is specified.
+|2
+|?
+
+|2-0-08
+|Predominant surface cover
+|A surface cover classification scheme and the surface cover are specifed and not "unknown".
+
+The element has a begin date.
+|2
+|?
+
+|2-0-09
+|Surface roughness
+|The Surface roughness is specified and not "unknown".
+
+The element has a begin date.
+|2
+|?
+
+|2-0-10
+|Topography or bathymetry
+|The local topography (based on Speight 2009) is specified and not "unknown".
+
+The relative elevation is specified and not "unknown".
+
+The Topographic context (based on Hammond 1954) is specified and not "unknown".
+
+Altitude / depth is specified and not "unknown".
+
+A begin date is specified.
+|5
+|?
+
+|2-0-11
+|Population
+|Values for population in 10 km and 50 km range are added.
+
+A begin date is specified.
+|3
+|?
+
+|2-0-12
+|Station / platform event logbook
+|Each station / platform event log entry is complete:
+
+A date is added (range or single day).
+
+The event is specified and not "unknown".
+
+A description is provided.
+
+The author is named.
+
+The event has an online reference.
+|5 (for each event)
+|?
+
+|===
+
+=== Guidance to score well on this assessment
+
+_Recommendations and hints/advice._
+
