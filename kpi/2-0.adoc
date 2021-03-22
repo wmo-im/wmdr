@@ -17,7 +17,7 @@ Draft
 |?
 
 |2-0-01
-|The WMO region
+|WMO region
 |The WMO region is specified and it matches the coordinates.
 |1
 |?
