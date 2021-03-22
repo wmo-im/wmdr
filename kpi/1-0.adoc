@@ -1,0 +1,24 @@
+== KPI-1-0: Schema compliance
+
+=== Status
+
+Draft
+
+=== Rules for implementation
+
+.Completeness of station characteristics implementation rules
+|===
+|ID |Element |Rules |Maximum score | Weight
+
+|1-0-00
+|Validity
+|Schema is valid, the XML header does not contain: "Invalid xml:javax.xml.bind.UnmarshalException".
+|1
+|?
+
+
+|===
+
+=== Guidance to score well on this assessment
+
+_Recommendations and hints/advice._
