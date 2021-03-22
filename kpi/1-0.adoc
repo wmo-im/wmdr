@@ -6,7 +6,7 @@ Draft
 
 === Rules for implementation
 
-.Completeness of station characteristics implementation rules
+.Schema compliance implementation rules
 |===
 |ID |Element |Rules |Maximum score | Weight
 
