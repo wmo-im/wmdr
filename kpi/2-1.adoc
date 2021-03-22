@@ -1,0 +1,46 @@
+== KPI-2-0: Station characteristics (OSCAR/Surface)
+
+=== Status
+
+Draft
+
+=== Rules for implementation
+
+.Completeness of station characteristics (OSCAR/Surface) implementation rules
+|===
+|ID |Element |Rules |Maximum score | Weight
+
+|2-1-00
+|Station photo gallery 
+|The station has 1-2 photos. (Score: 1)
+
+The station has 3-5 photos. (Score: 2)
+
+The station has more than 5 photos. (Score: 3)
+|3
+|?
+
+|2-1-01
+|Station photo
+|Each photo fulfills the following rules:
+
+The added direction of view is not "unknown".
+
+The angle of view (focal length) is specified.
+|2 (for each photo)
+|?
+
+|2-1-02
+|Timeliness 
+|Station record was updated in the last year (score: 2)
+
+Station record was updated in the last 3 years (score: 1) 
+|2
+|?
+
+|===
+
+=== Guidance to score well on this assessment
+
+_Recommendations and hints/advice._
+
