@@ -1,0 +1,29 @@
+== KPI-5-0: 	Bibliographic references and Documents (OSCAR/Surface)
+
+=== Status
+
+Draft
+
+=== Rules for implementation
+
+.Bibliographic references and Documents (OSCAR/Surface) implementation rules
+|===
+|ID |Element |Rules |Maximum score | Weight
+
+|5-0-00
+|Reference
+|Station record has at least one reference.
+|1
+|?
+
+|5-0-01
+|Source
+|Reference contains a valid URL or DOI or a document.
+|1 (for each reference)
+|?
+
+|===
+
+=== Guidance to score well on this assessment
+
+_Recommendations and hints/advice._
