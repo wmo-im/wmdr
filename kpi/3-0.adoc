@@ -6,7 +6,7 @@ Draft
 
 === Rules for implementation
 
-.Rules to assess the completeness of an observation/measurement
+.Completeness of an observation/measurement implementation rules
 |===
 |ID |Element |Rules |Maximum score | Weight
 
