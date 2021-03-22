@@ -1,0 +1,50 @@
+== KPI-6-0: Value of a station for WIGOS
+
+=== Status
+
+Draft
+
+=== Rules for implementation
+
+.Value of a station for WIGOS implementation rules
+|===
+|ID |Element |Rules |Maximum score | Weight
+
+|6-0-00
+|Program affiliations
+|2 - 3 program affiliations (score: 1)
+
+3 - 5 program affiliations (score: 2)
+
+More than 5 program affiliations (score: 3)
+|3
+|?
+
+|6-0-01
+|Observations / measurements
+|2 - 5 observations (score: 1)
+
+5 - 10 observations (score: 2)
+
+More than 10 observations (score: 3)
+|3
+|?
+
+|6-0-02
+|Application area(s)
+|Deployment has more than one application area.
+|1 (for each deployment)
+|?
+
+|6-0-03
+|Near real time availability 
+|Data are available for near real time.
+|1 (for each deployment)
+|?
+
+|===
+
+=== Guidance to score well on this assessment
+
+_Recommendations and hints/advice._
+
