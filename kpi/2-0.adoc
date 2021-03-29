@@ -33,6 +33,7 @@ Draft
 
 .2+|2-0-03
 .2+|Supervising organization
+`wmdr:responsibleParty`
 |A supervising organization is specified and not "unknown". |1 .2+|2 .2+|?
 |A begin date is specified. |1
 
