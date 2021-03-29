@@ -27,7 +27,7 @@ Draft
 .2+|2-0-02
 .2+|Time zone
 `wmdr:timeZone`
-|A time zone is specified and it matches the coordinates. |3 .2+|4 .2+|?
+|A time zone is specified and it matches the coordinates. |1 .2+|2 .2+|?
 |A begin date is specified.|1 
 
 
