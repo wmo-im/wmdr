@@ -8,12 +8,13 @@ Draft
 
 .Data generation implementation rules
 |===
-|ID |Section |Element |Rules |Maximum score | Weight
+|ID |Section |Element |Rules |Individual score |Maximum score | Weight
 
 |3-3-00
 |Sampling
 |Sampling strategy
 |Sampling strategy is specified and not "unknown".
+|1
 |1
 |?
 
@@ -22,12 +23,14 @@ Draft
 |Sampling interval	
 |Sampling interval is specified.
 |1
+|1
 |?
 
 |3-3-02
 |
 |Sampling period
 |Sampling period is specified.
+|1
 |1
 |?
 
@@ -36,21 +39,21 @@ Draft
 |Spatial sampling resolution
 |Sampling resolution is specified.
 |1
+|1
 |?
 
-|3-3-04
-|
-|Sampling procedure 
-|Sampling procedure is specified and not "unknown".
+.2+|3-3-04
+.2+|
+.2+|Sampling procedure 
+|Sampling procedure is specified and not "unknown". |1 .2+|2 .2+|?
+|Sampling procedure description is provided.|1
 
-Sampling procedure description is provided.
-|2
-|?
 
 |3-3-05
 |
 |Sample treatment	
 |Sample treatment is specified and not "unknown".
+|1
 |1
 |?
 
@@ -59,12 +62,14 @@ Sampling procedure description is provided.
 |Aggregation period
 |Aggregation period is specified.
 |1
+|1
 |?
 
 |3-3-07
 |
 |Data processing method
 |Data processing method is described.
+|1
 |1
 |?
 
@@ -73,19 +78,22 @@ Sampling procedure description is provided.
 |Software/processor and version
 |An organization is named and not "unknown".
 |1
+|1
 |?
 
 |3-3-09
 |
 |Software/source code repository URL
 |URL is provided and valid.
-|2
+|1
+|1
 |?
 
 |3-3-10
 |
 |Processing/analysis centre
 |Processing/analysis centre is named and not "unknown".
+|1
 |1
 |?
 
@@ -94,12 +102,14 @@ Sampling procedure description is provided.
 |Diurnal base time
 |Diurnal base time is specified.
 |1
+|1
 |?
 
 |3-3-12
 |
 |Number of observations in reporting period
 |Number of observations in reporting period is specified. 
+|1
 |1
 |?
 
@@ -108,12 +118,14 @@ Sampling procedure description is provided.
 |Measurement unit	
 |	Unit is specified and not "unknown".
 |1
+|1
 |?
 
 |3-3-14
 |
 |Data policy
 |Data policy is specified and not "unknown".
+|1
 |1
 |?
 
@@ -122,12 +134,14 @@ Sampling procedure description is provided.
 |Spatial reporting interval
 |Spatial reporting interval is specified.
 |1
+|1
 |?
 
 |3-3-16
 |
 |Timeliness (Latency of reporting)
 |Time lag is specified.
+|1
 |1
 |?
 
@@ -136,12 +150,14 @@ Sampling procedure description is provided.
 |Numerical resolution
 |Numerical resolution is specified.
 |1
+|1
 |?
 
 |3-3-18
 |
 |Level of data
 |Level of data is specified and not "unknown".
+|1
 |1
 |?
 
@@ -150,12 +166,14 @@ Sampling procedure description is provided.
 |Data format
 |Data format is specified and not "unknown".
 |1
+|1
 |?
 
 |3-3-20
 |
 |Data format version
 |Data format version is specified.
+|1
 |1
 |?
 
@@ -164,12 +182,14 @@ Sampling procedure description is provided.
 |Reference datum	
 |Reference datum is described.
 |1
+|1
 |?
 
 |3-3-22
 |
 |Reference time source
 |Reference time source is specified and not "unknown".
+|1
 |1
 |?
 
@@ -178,12 +198,14 @@ Sampling procedure description is provided.
 |Is the observation traceable to a standard?
 |Traceability to a standard is stated.
 |1
+|1
 |?
 
 |3-3-24
 |
 |Data quality flagging system
 |Data quality flagging system is specified and not "unknown".
+|1
 |1
 |?
 
@@ -192,6 +214,7 @@ Sampling procedure description is provided.
 |Primary observation
 |It indicated whether the observation is a primary one.
 |1
+|1
 |?
 
 |3-3-26
@@ -199,20 +222,16 @@ Sampling procedure description is provided.
 |Meaning of timestamp in data reports
 |Meaning of timestamp in data reports is specified and not "unknown".
 |1
+|1
 |?
 
-|3-3-27
-|
-|Attribution 
-|Title of work is specified.
-
-Attribution URL is given and valid.
-
-Originator of work is named.
-
-Source work basis (URL) is added and valid.
-|4
-|?
+.4+|3-3-27
+.4+|
+.4+|Attribution 
+|Title of work is specified. |1 .4+|4 .4+|?
+|Attribution URL is given and valid.|1
+|Originator of work is named.|1
+|Source work basis (URL) is added and valid.|1
 
 |===
 
