@@ -115,6 +115,7 @@ Draft
 |3-1-12
 |
 |Data communication method
+`wmdr:communicationMethod`
 |The data communication method is added and not "unknown".
 |1
 |1
@@ -131,6 +132,7 @@ Draft
 |3-1-14
 |
 |Maintenance schedule
+`wmdr:maintenanceSchedule`
 |Maintenance schedule is described (free text input).
 |1
 |1
@@ -138,7 +140,7 @@ Draft
 
 .3+|3-1-15
 .3+|Instrument characteristics
-.3+|Instrument details (manufacturer, model, serial number)
+.3+|Instrument details (`wmdr:manufacturer`, `wmdr:model`, `wmdr:serialNumber`)
 |A manufacturer named and not "unknown".|1 .3+|3 .3+|?
 |A model is specified.|1
 |A serial number is specified.|1
