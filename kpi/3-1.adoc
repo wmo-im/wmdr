@@ -13,6 +13,7 @@ Draft
 |3-1-00
 |General information
 |Source of observation
+`wmdr:sourceOfObservation`
 |Source of observation is specified and not "unknown".
 |1
 |1
@@ -21,6 +22,7 @@ Draft
 |3-1-01
 |
 |Distance from reference surface
+`wmdr:heightAboveLocalReferenceSurface`
 |The distance from reference surface is specified.
 |1
 |1
@@ -29,6 +31,7 @@ Draft
 |3-1-02
 |
 |Type of reference surface
+`wmdr:localReferenceSurface`
 |A type of reference surface is specified and the entry is not marked as "deprecated".
 |1
 |1
@@ -37,6 +40,7 @@ Draft
 |3-1-03
 |
 |Application area(s)
+`wmdr:applicationArea`
 |At least one application area is specified and not "unknown". 
 |1
 |1
@@ -45,6 +49,7 @@ Draft
 |3-1-04
 |
 |Exposure of instrument
+`wmdr:exposure`
 |The exposure classification is specified and not "unknown".
 |1
 |1
@@ -53,6 +58,7 @@ Draft
 |3-1-05
 |
 |Configuration of instrument
+`wmdr:configuration`
 |The customisation of instruments is described (free text input). 
 |1
 |1
@@ -61,6 +67,7 @@ Draft
 |3-1-06
 |
 |Representativeness of observation
+`wmdr:representativeness`
 |Representativeness of observation is specified and not "unknown".
 |1
 |1
