@@ -14,7 +14,7 @@ Draft
 |General information
 |Source of observation
 `wmdr:sourceOfObservation`
-|Source of observation is specified and not "unknown".
+|Source of observation (code list: http://codes.wmo.int/wmdr/SourceOfObservation) is specified and not "unknown".
 |1
 |1
 |?
@@ -32,7 +32,7 @@ Draft
 |
 |Type of reference surface
 `wmdr:localReferenceSurface`
-|A type of reference surface is specified and the entry is not marked as "deprecated".
+|A type of reference surface (code list: http://codes.wmo.int/wmdr/ReferenceSurfaceType) is specified and the entry is not marked as "deprecated".
 |1
 |1
 |?
@@ -41,7 +41,7 @@ Draft
 |
 |Application area(s)
 `wmdr:applicationArea`
-|At least one application area is specified and not "unknown". 
+|At least one application area (code list: http://codes.wmo.int/wmdr/ApplicationArea) is specified and not "unknown". 
 |1
 |1
 |?
@@ -50,7 +50,7 @@ Draft
 |
 |Exposure of instrument
 `wmdr:exposure`
-|The exposure classification is specified and not "unknown".
+|The exposure classification (code list: http://codes.wmo.int/wmdr/Exposure) is specified and not "unknown".
 |1
 |1
 |?
@@ -68,7 +68,7 @@ Draft
 |
 |Representativeness of observation
 `wmdr:representativeness`
-|Representativeness of observation is specified and not "unknown".
+|Representativeness of observation (code list: http://codes.wmo.int/wmdr/Representativeness) is specified and not "unknown".
 |1
 |1
 |?
@@ -116,7 +116,7 @@ Draft
 |
 |Data communication method
 `wmdr:communicationMethod`
-|The data communication method is added and not "unknown".
+|The data communication method (code list: http://codes.wmo.int/wmdr/DataCommunicationMethod) is added and not "unknown".
 |1
 |1
 |?
@@ -157,14 +157,14 @@ Draft
 .3+|
 .3+|Coordinates
 |Instrument coordinates are added (Latitude, longitude, elevation).|1 .3+|3 .3+|?
-|A geopositioning method is specified and not "unknown".|1
+|A geopositioning method (code list: http://codes.wmo.int/wmdr/GeopositioningMethod) is specified and not "unknown".|1
 |The coordinates are plausible (in vicinity of the facility).|1
 
 
 .2+|3-1-18
 .2+|
 .2+|Instrument operating status
-|An instrument operating status is specified and not "unknown".|1 .2+|2 .2+|?
+|An instrument operating status (code list: http://codes.wmo.int/wmdr/InstrumentOperatingStatus) is specified and not "unknown".|1 .2+|2 .2+|?
 |The begin position of valid period is specified.|1
 
 
@@ -210,7 +210,7 @@ Draft
 |3-1-24
 |
 |Uncertainty evaluation procedure
-|Uncertainty evaluation procedure is specified and not "unknown".
+|Uncertainty evaluation procedure (code list: http://codes.wmo.int/wmdr/UncertaintyEstimateProcedure) is specified and not "unknown".
 |1
 |1
 |?
@@ -227,7 +227,7 @@ Draft
 .2+|3-1-26
 .2+|
 .2+|Telecommunication frequency (Use of frequency, frequency, bandwidth)
-|Telecommunication frequency information are added.|1 .2+|2 .2+|?
+|Telecommunication frequency information (code list: http://codes.wmo.int/wmdr/FrequencyUse) are added.|1 .2+|2 .2+|?
 |Bandwidth is specified.|1
 
 
