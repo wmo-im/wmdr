@@ -20,7 +20,7 @@ Draft
 |2-0-01
 |WMO region
 `wmdr:wmoRegion`
-|The WMO region is specified and it matches the coordinates.
+|A WMO region (code list: http://codes.wmo.int/wmdr/WMORegion) is specified and it matches the coordinates.
 |1 |1
 |?
 
@@ -62,31 +62,31 @@ Draft
 .2+|2-0-07
 .2+|Climate zone
 `wmdr:climateZone`
-|A climate zone is specified. |1 .2+|2 .2+|?
+|A climate zone (code list: http://codes.wmo.int/wmdr/ClimateZone) is specified. |1 .2+|2 .2+|?
 |The begin position of valid period is specified. |1
 
 
 .2+|2-0-08
 .2+|Predominant surface cover
 `wmdr:surfaceCover`
-|A surface cover classification scheme and the surface cover are specifed and not "unknown". |1 .2+|2 .2+|?
+|A surface cover classification scheme (code list: http://codes.wmo.int/wmdr/SurfaceCoverClassification) and the surface cover (code lists: http://codes.wmo.int/wmdr/SurfaceCoverXXXX) are specifed and not "unknown". |1 .2+|2 .2+|?
 |The begin position of valid period is specified. |1
 
 
 .2+|2-0-09
 .2+|Surface roughness
 `wmdr:surfaceRoughness`
-|The Surface roughness is specified and not "unknown". |1 .2+|2 .2+|?
+|The Surface roughness (code list: http://codes.wmo.int/wmdr/SurfaceRoughnessDavenport) is specified and not "unknown". |1 .2+|2 .2+|?
 |The begin position of valid period is specified. |1
 
 
 .5+|2-0-10
 .5+|Topography or bathymetry
 `wmdr:topographyBathymetry`
-|The local topography (based on Speight 2009) is specified and  not "unknown". |1 .5+|5  .5+|?
+|The local topography (based on Speight 2009) (code list: http://codes.wmo.int/wmdr/LocalTopography) is specified and  not "unknown". |1 .5+|5  .5+|?
 |The relative elevation is specified and not "unknown". |1
-|The Topographic context (based on Hammond 1954) is specified and not "unknown". |1
-|Altitude / depth is specified and not "unknown". |1
+|The Topographic context (based on Hammond 1954) (code list: http://codes.wmo.int/wmdr/TopographicContext) is specified and not "unknown". |1
+|Altitude / depth (code list: http://codes.wmo.int/wmdr/AltitudeOrDepth) is specified and not "unknown". |1
 |The begin position of valid period is specified. |1
 
 
