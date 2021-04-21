@@ -14,7 +14,7 @@ Draft
 .2+|Coordinates
 `wmdr:geospatialLocation`
 |A geopositioning method is specified and not "unknown". |1 .2+|2 (for each added location) .2+|?
-|A begin date is specified. |1
+|The begin position of valid period is specified. |1
 
 
 |2-0-01
@@ -28,14 +28,14 @@ Draft
 .2+|Time zone
 `wmdr:timeZone`
 |A time zone is specified and it matches the coordinates. |1 .2+|2 .2+|?
-|A begin date is specified.|1 
+|The begin position of valid period is specified.|1 
 
 
 .2+|2-0-03
 .2+|Supervising organization
 `wmdr:responsibleParty`
 |A supervising organization is specified and not "unknown". |1 .2+|2 .2+|?
-|A begin date is specified. |1
+|The begin position of valid period is specified.|1
 
 
 |2-0-04
@@ -56,28 +56,28 @@ Draft
 .2+|Site description
 `wmdr:description`
 |Site description is provided. |1 .2+|2 .2+|?
-|Requirements for minumum and maximum length are fulfilled. |1
+|Requirement for minumum length is fulfilled. |1
 
 
 .2+|2-0-07
 .2+|Climate zone
 `wmdr:climateZone`
 |A climate zone is specified. |1 .2+|2 .2+|?
-|A begin date is specified. |1
+|The begin position of valid period is specified. |1
 
 
 .2+|2-0-08
 .2+|Predominant surface cover
 `wmdr:surfaceCover`
 |A surface cover classification scheme and the surface cover are specifed and not "unknown". |1 .2+|2 .2+|?
-|The element has a begin date. |1
+|The begin position of valid period is specified. |1
 
 
 .2+|2-0-09
 .2+|Surface roughness
 `wmdr:surfaceRoughness`
 |The Surface roughness is specified and not "unknown". |1 .2+|2 .2+|?
-|The element has a begin date. |1
+|The begin position of valid period is specified. |1
 
 
 .5+|2-0-10
@@ -87,7 +87,7 @@ Draft
 |The relative elevation is specified and not "unknown". |1
 |The Topographic context (based on Hammond 1954) is specified and not "unknown". |1
 |Altitude / depth is specified and not "unknown". |1
-|A begin date is specified. |1
+|The begin position of valid period is specified. |1
 
 
 .3+|2-0-11
@@ -95,7 +95,7 @@ Draft
 `wmdr:population`
 |Values for population in 10 km range is added. |1 .3+|3  .3+|?
 |Values for population in 50 km range is added. |1
-|A begin date is specified. |1
+|The begin position of valid period is specified. |1
 
 
 .5+|2-0-12
