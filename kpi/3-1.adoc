@@ -200,7 +200,7 @@ Draft
 
 .5+|3-1-25
 .5+|
-.5+|Observation frequency and polarization
+.5+|Observation frequency and polarization `wmdr:frequencyUse`, `wmdr:frequency`, `wmdr:bandwidth`, `wmdr:transmissionMode`, `wmdr:polarization`
 |Observation frequency use (code list: http://codes.wmo.int/wmdr/FrequencyUse) is specified.|1 .5+|5 .5+|?
 |Frequency is specified.|1
 |Bandwith is specified.|1
@@ -209,7 +209,7 @@ Draft
 
 .3+|3-1-26
 .3+|
-.3+|Telecommunication frequency (Use of frequency, frequency, bandwidth)
+.3+|Telecommunication frequency (Use of frequency, frequency, bandwidth) `wmdr:frequencyUse`, `wmdr:frequency`, `wmdr:bandwidth`
 |Telecommunication frequency use (code list: http://codes.wmo.int/wmdr/FrequencyUse) is specified.|1 .3+|3 .3+|?
 |Bandwidth is specified.|1
 |Frequency is specified.|1
