@@ -12,7 +12,7 @@ Draft
 
 |3-0-00
 |Geometry 
-|Geometry is not specified as "unknown".
+|Geometry (code list: http://codes.wmo.int/wmdr/Geometry) is not specified as "unknown".
 |1
 |?
 
