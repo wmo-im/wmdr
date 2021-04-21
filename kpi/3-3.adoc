@@ -12,7 +12,7 @@ Draft
 
 |3-3-00
 |Sampling
-|Sampling strategy
+|Sampling strategy `wmdr:samplingStrategy`
 |Sampling strategy (code list: http://codes.wmo.int/wmdr/SamplingStrategy) is specified and not "unknown".
 |1
 |1
@@ -20,7 +20,7 @@ Draft
 
 |3-3-01
 |
-|Sampling interval	
+|Sampling interval `wmdr:temporalSamplingInterval`	
 |Sampling interval is specified.
 |1
 |1
@@ -28,7 +28,7 @@ Draft
 
 |3-3-02
 |
-|Sampling period
+|Sampling period `wmdr:samplingTimePeriod`
 |Sampling period is specified.
 |1
 |1
@@ -36,7 +36,7 @@ Draft
 
 |3-3-03
 |
-|Spatial sampling resolution
+|Spatial sampling resolution `wmdr:spatialSamplingResolution`
 |Sampling resolution is specified.
 |1
 |1
@@ -44,14 +44,14 @@ Draft
 
 .2+|3-3-04
 .2+|
-.2+|Sampling procedure 
+.2+|Sampling procedure `wmdr:samplingProcedure`
 |Sampling procedure is specified and not "unknown". |1 .2+|2 .2+|?
 |Sampling procedure description is provided.|1
 
 
 |3-3-05
 |
-|Sample treatment	
+|Sample treatment	`wmdr:sampleTreatment`
 |Sample treatment is specified and not "unknown".
 |1
 |1
@@ -59,7 +59,7 @@ Draft
 
 |3-3-06
 |Processing
-|Aggregation period
+|Aggregation period `wmdr:aggregationPeriod`
 |Aggregation period is specified.
 |1
 |1
@@ -67,7 +67,7 @@ Draft
 
 |3-3-07
 |
-|Data processing method
+|Data processing method `wmdr:dataProcessing`
 |Data processing method is described.
 |1
 |1
@@ -75,15 +75,15 @@ Draft
 
 |3-3-08
 |
-|Software/processor and version
-|An organization is named and not "unknown".
+|Software/processor and version `wmdr:dataProcessing`
+|Name and version of the software or processor are specified.
 |1
 |1
 |?
 
 |3-3-09
 |
-|Software/source code repository URL
+|Software/source code repository URL `wmdr:softwareURL`
 |URL is provided and valid.
 |1
 |1
@@ -91,7 +91,7 @@ Draft
 
 |3-3-10
 |
-|Processing/analysis centre
+|Processing/analysis centre `wmdr:processingCentre`
 |Processing/analysis centre is named and not "unknown".
 |1
 |1
@@ -99,7 +99,7 @@ Draft
 
 |3-3-11
 |Reporting
-|Diurnal base time
+|Diurnal base time `wmdr:diurnalBaseTime`
 |Diurnal base time is specified.
 |1
 |1
@@ -107,7 +107,7 @@ Draft
 
 |3-3-12
 |
-|Number of observations in reporting period
+|Number of observations in reporting period `wmdr:numberOfObservationsInReportingInterval`
 |Number of observations in reporting period is specified. 
 |1
 |1
@@ -115,7 +115,7 @@ Draft
 
 |3-3-13
 |
-|Measurement unit	
+|Measurement unit	`wmdr:uom`
 |	Unit (code list: http://codes.wmo.int/wmdr/unit) is specified and not "unknown".
 |1
 |1
@@ -123,7 +123,7 @@ Draft
 
 |3-3-14
 |
-|Data policy
+|Data policy `wmdr:dataPolicy`
 |Data policy (code list: http://codes.wmo.int/wmdr/DataPolicy) is specified and not "unknown".
 |1
 |1
@@ -131,7 +131,7 @@ Draft
 
 |3-3-15
 |
-|Spatial reporting interval
+|Spatial reporting interval `wmdr:spatialReportingInterval`
 |Spatial reporting interval is specified.
 |1
 |1
@@ -139,7 +139,7 @@ Draft
 
 |3-3-16
 |
-|Timeliness (Latency of reporting)
+|Timeliness (Latency of reporting) `wmdr:timeliness`
 |Time lag is specified.
 |1
 |1
@@ -147,7 +147,7 @@ Draft
 
 |3-3-17
 |
-|Numerical resolution
+|Numerical resolution `wmdr:numericalResolution`
 |Numerical resolution is specified.
 |1
 |1
@@ -155,7 +155,7 @@ Draft
 
 |3-3-18
 |
-|Level of data
+|Level of data `wmdr:levelOfData`
 |Level of data (code list: http://codes.wmo.int/wmdr/LevelOfData) is specified and not "unknown".
 |1
 |1
@@ -163,7 +163,7 @@ Draft
 
 |3-3-19
 |
-|Data format
+|Data format `wmdr:dataFormat`
 |Data format (code list: http://codes.wmo.int/wmdr/DataFormat) is specified and not "unknown".
 |1
 |1
@@ -171,7 +171,7 @@ Draft
 
 |3-3-20
 |
-|Data format version
+|Data format version `wmdr:dataFormatVersion`
 |Data format version is specified.
 |1
 |1
@@ -179,7 +179,7 @@ Draft
 
 |3-3-21
 |
-|Reference datum	
+|Reference datum `wmdr:referenceDatum`
 |Reference datum is described.
 |1
 |1
@@ -187,7 +187,7 @@ Draft
 
 |3-3-22
 |
-|Reference time source
+|Reference time source `wmdr:referenceTimeSource`
 |Reference time source (code list: http://codes.wmo.int/wmdr/ReferenceTime) is specified and not "unknown".
 |1
 |1
@@ -219,7 +219,7 @@ Draft
 
 |3-3-26
 |
-|Meaning of timestamp in data reports
+|Meaning of timestamp in data reports `wmdr:timeStampMeaning`
 |Meaning of timestamp (code list:  http://codes.wmo.int/wmdr/TimeStampMeaning) in data reports is specified and not "unknown".
 |1
 |1
@@ -227,7 +227,7 @@ Draft
 
 .4+|3-3-27
 .4+|
-.4+|Attribution 
+.4+|Attribution `wmdr:attribution`
 |Title of work is specified. |1 .4+|4 .4+|?
 |Attribution URL is given and valid.|1
 |Originator of work is named.|1
