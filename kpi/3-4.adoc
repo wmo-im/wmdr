@@ -1,1 +1,43 @@
+== KPI-3-4: 	Data generation (OSCAR/Surface)
+
+=== Status
+
+Draft
+
+=== Rules for implementation
+
+.Data generation implementation rules
+|===
+|ID |Section |Element |Rules |Individual score |Maximum score | Weight
+
+
+|3-4-00
+|Processing
+|Is the observation traceable to a standard?
+|Traceability to a standard is stated.
+|1
+|1
+|?
+
+|3-4-01
+|
+|Data quality flagging system
+|Data quality flagging system (code list: http://codes.wmo.int/wmdr/QualityFlagSystem) is specified and not "unknown".
+|1
+|1
+|?
+
+|3-4-02
+|
+|Primary observation
+|It indicated whether the observation is a primary one.
+|1
+|1
+|?
+
+|===
+
+=== Guidance to score well on this assessment
+
+_Recommendations and hints/advice._
 
