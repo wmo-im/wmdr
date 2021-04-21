@@ -106,9 +106,15 @@ Draft
 |A description is provided.|1
 |The author is named.|1
 |The event has an online reference.|1
+
+
+.2+|2-0-13
+.2+|Territory/Country
+`wmdr:territory`
+|A territory or country is specified and not "unknown". |1 .2+|2 .2+|?
+|The begin position of valid period is specified. |1
+
 |==
-
-
 === Guidance to score well on this assessment
 
 _Recommendations and hints/advice._
