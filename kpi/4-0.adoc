@@ -12,7 +12,7 @@ Draft
 
 |4-0-00
 |Number of station contacts
-|Station has at least on contact person, who is not the country's national focal point. 
+|Station has at least on contact person. 
 |1
 |?
 
