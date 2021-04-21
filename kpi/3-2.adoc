@@ -37,26 +37,19 @@ Draft
 |Individual is named.|1
 |Descriptions fulfills requirements for minimum and maximum length.|1
 |Author is named.|1
-|Documentation URL is added and valid.|1
+|Documentation URL is provided and valid.|1
 
-|3-2-04
-|
-|Quality assurance logbook
-|The exposure classification (code list: http://codes.wmo.int/wmdr/Exposure) is specified and not "unknown".
-|1
-|1
-|?
-
-.7+|3-1-05
-.7+|
-.7+|Configuration of instrument
-|Location is added and not "unknown".|1 .7+|7 (for each log entry) .7+|?
-|Standard type is specified and not "unknown".|1
+.8+|3-2-04
+.8+|
+.8+|Quality assurance logbook
+|Control location (code list: http://codes.wmo.int/wmdr/ControlLocation) is specified and not "unknown".|1 .8+|8 (for each log entry) .8+|?
+|Activity date is added.|1
+|Control standard type (code list: http://codes.wmo.int/wmdr/ControlStandardType) is specified and not "unknown".|1
 |Standard name is specified.|1
 |Standard serial number is specified.|1
-|Activity result is specified.|1
-|Documentation URL is added and valid.|1
-|Author is named.|1
+|Activity result (code list: http://codes.wmo.int/wmdr/InstrumentControlResult) is specified and not "unknown".|1
+|Documentation URL is provided and valid. |1
+|Author is named.1
 
 |===
 
