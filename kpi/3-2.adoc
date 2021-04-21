@@ -18,6 +18,14 @@ Draft
 |1
 |?
 
+|3-2-05
+|
+|Data centre
+|A data centre is added.
+|1
+|1
+|?
+
 .2+|3-2-01
 .2+|
 .2+|Deployment (General information) - Photo, details
