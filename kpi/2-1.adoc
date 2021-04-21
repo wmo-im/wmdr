@@ -22,12 +22,6 @@ Draft
 |The added direction of view is not "unknown".|1 .2+|2 (for each photo) .2+|?
 |The angle of view (focal length) is specified.|1
 
-
-.2+|2-1-02
-.2+|Timeliness 
-|Station record was updated in the last year |1 .2+|2  .2+|?
-|Station record was updated in the last 1-3 years |1 
-
 |===
 
 === Guidance to score well on this assessment
