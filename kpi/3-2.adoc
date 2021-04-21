@@ -21,7 +21,7 @@ Draft
 .2+|3-2-01
 .2+|
 .2+|Deployment (General information) - Photo, details
-|Direction of view is specified and not "unknown".|1 .2+|2 (for each photo) .2+|?
+|Direction of view (code list: http://codes.wmo.int/wmdr/StationPictureDirection) is specified and not "unknown".|1 .2+|2 (for each photo) .2+|?
 |Angle of view is specified.|1 
 
 .2+|3-2-02
@@ -42,7 +42,7 @@ Draft
 |3-2-04
 |
 |Quality assurance logbook
-|The exposure classification is specified and not "unknown".
+|The exposure classification (code list: http://codes.wmo.int/wmdr/Exposure) is specified and not "unknown".
 |1
 |1
 |?
