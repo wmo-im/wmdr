@@ -13,7 +13,7 @@ Draft
 |3-3-00
 |Sampling
 |Sampling strategy
-|Sampling strategy is specified and not "unknown".
+|Sampling strategy (code list: http://codes.wmo.int/wmdr/SamplingStrategy) is specified and not "unknown".
 |1
 |1
 |?
@@ -116,7 +116,7 @@ Draft
 |3-3-13
 |
 |Measurement unit	
-|	Unit is specified and not "unknown".
+|	Unit (code list: http://codes.wmo.int/wmdr/unit) is specified and not "unknown".
 |1
 |1
 |?
@@ -124,7 +124,7 @@ Draft
 |3-3-14
 |
 |Data policy
-|Data policy is specified and not "unknown".
+|Data policy (code list: http://codes.wmo.int/wmdr/DataPolicy) is specified and not "unknown".
 |1
 |1
 |?
@@ -156,7 +156,7 @@ Draft
 |3-3-18
 |
 |Level of data
-|Level of data is specified and not "unknown".
+|Level of data (code list: http://codes.wmo.int/wmdr/LevelOfData) is specified and not "unknown".
 |1
 |1
 |?
@@ -164,7 +164,7 @@ Draft
 |3-3-19
 |
 |Data format
-|Data format is specified and not "unknown".
+|Data format (code list: http://codes.wmo.int/wmdr/DataFormat) is specified and not "unknown".
 |1
 |1
 |?
@@ -188,7 +188,7 @@ Draft
 |3-3-22
 |
 |Reference time source
-|Reference time source is specified and not "unknown".
+|Reference time source (code list: http://codes.wmo.int/wmdr/ReferenceTime) is specified and not "unknown".
 |1
 |1
 |?
@@ -204,7 +204,7 @@ Draft
 |3-3-24
 |
 |Data quality flagging system
-|Data quality flagging system is specified and not "unknown".
+|Data quality flagging system (code list: http://codes.wmo.int/wmdr/QualityFlagSystem) is specified and not "unknown".
 |1
 |1
 |?
@@ -220,7 +220,7 @@ Draft
 |3-3-26
 |
 |Meaning of timestamp in data reports
-|Meaning of timestamp in data reports is specified and not "unknown".
+|Meaning of timestamp (code list:  http://codes.wmo.int/wmdr/TimeStampMeaning) in data reports is specified and not "unknown".
 |1
 |1
 |?
