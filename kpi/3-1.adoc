@@ -216,7 +216,7 @@ Draft
 
 |3-1-27
 |Data generation
-|Data generation
+|Data generation `wmdr:dataGeneration`
 |The deployment has at least one data generation.
 |1
 |1
