@@ -57,7 +57,7 @@ Draft
 |Standard serial number is specified.|1
 |Activity result (code list: http://codes.wmo.int/wmdr/InstrumentControlResult) is specified and not "unknown".|1
 |Documentation URL is provided and valid. |1
-|Author is named.1
+|Author is named|1
 
 |3-2-06
 |
