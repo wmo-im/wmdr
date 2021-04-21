@@ -10,6 +10,7 @@ Category no. | Subcategory no. | Name
 3|1| Deployment
 3|2|Deployment (OSCAR/Surface)
 3|3| Data generation
+3|4| Data generation (OSCAR/Surface)
 4|0|Station contacts
 4|1|Station contact - individual
 5|0|Bibliographic references and Documents (OSCAR/Surface)
