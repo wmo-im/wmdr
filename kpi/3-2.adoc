@@ -59,6 +59,15 @@ Draft
 |Documentation URL is provided and valid. |1
 |Author is named.1
 
+|3-2-06
+|
+|Method details, method comments 
+|Method comments  or method details are given.
+|1
+|1
+|?
+
+
 |===
 
 === Guidance to score well on this assessment
