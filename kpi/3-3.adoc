@@ -193,30 +193,6 @@ Draft
 |1
 |?
 
-|3-3-23
-|
-|Is the observation traceable to a standard?
-|Traceability to a standard is stated.
-|1
-|1
-|?
-
-|3-3-24
-|
-|Data quality flagging system
-|Data quality flagging system (code list: http://codes.wmo.int/wmdr/QualityFlagSystem) is specified and not "unknown".
-|1
-|1
-|?
-
-|3-3-25
-|
-|Primary observation
-|It indicated whether the observation is a primary one.
-|1
-|1
-|?
-
 |3-3-26
 |
 |Meaning of timestamp in data reports `wmdr:timeStampMeaning`
