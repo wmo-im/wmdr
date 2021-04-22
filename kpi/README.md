@@ -15,3 +15,4 @@ Category no. | Subcategory no. | Name
 4|1|Station contact - individual
 5|0|Bibliographic references and Documents (OSCAR/Surface)
 6|0| Value of a station for WIGOS
+6|1| Timeliness of data
