@@ -83,10 +83,10 @@ Draft
 .5+|2-0-10
 .5+|Topography or bathymetry
 `wmdr:topographyBathymetry`
-|The local topography (based on Speight 2009) (code list: http://codes.wmo.int/wmdr/LocalTopography) is specified and  not "unknown". |1 .5+|5  .5+|?
+|The local topography (based on Speight 2009) (code list: http://codes.wmo.int/wmdr/LocalTopography ) is specified and  not "unknown". |1 .5+|5  .5+|?
 |The relative elevation is specified and not "unknown". |1
-|The Topographic context (based on Hammond 1954) (code list: http://codes.wmo.int/wmdr/TopographicContext) is specified and not "unknown". |1
-|Altitude / depth (code list: http://codes.wmo.int/wmdr/AltitudeOrDepth) is specified and not "unknown". |1
+|The Topographic context (based on Hammond 1954) (code list: http://codes.wmo.int/wmdr/TopographicContext ) is specified and not "unknown". |1
+|Altitude/depth (code list: http://codes.wmo.int/wmdr/AltitudeOrDepth) is specified and not "unknown". |1
 |The begin position of valid period is specified. |1
 
 
