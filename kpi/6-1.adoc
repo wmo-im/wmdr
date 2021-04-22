@@ -1,0 +1,24 @@
+== KPI-6-1: Timeliness of data
+
+=== Status
+
+Draft
+
+=== Rules for implementation
+
+.Timeliness of data implementation rules
+|===
+|ID |Element |Rules |Maximum score | Weight
+
+|6-1-00
+|
+|
+|
+|
+
+
+|===
+
+=== Guidance to score well on this assessment
+
+_Recommendations and hints/advice._
