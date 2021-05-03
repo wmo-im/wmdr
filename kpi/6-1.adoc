@@ -1,4 +1,4 @@
-== KPI-6-1: Timeliness of data
+== KPI-6-1: Maintenance of a station record
 
 === Status
 
