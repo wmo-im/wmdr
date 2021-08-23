@@ -8,43 +8,37 @@ Draft
 
 .Station contact - individual implementation rules
 |===
-|ID |Element |Rules |Maximum score | Weight
+|ID |Element |Rules |Maximum score
 
 |4-1-00
 |Address
 |Address is specified.
 |1
-|?
 
 |4-1-01
 |Postal code
 |Postal code is specified.
 |1
-|?
 
 |4-1-02
 |State or province
 |State/province is specified.
 |1
-|?
 
 |4-1-03
 |Phone (main & other)
 |At least one phone number is provided.
 |1
-|?
 
 |4-1-04
 |Fax
 |Fax number is provided.
 |1
-|?
 
 |4-1-05
 |Contact URL
 |URL is provided and valid.
 |1
-|?
 
 |===
 
