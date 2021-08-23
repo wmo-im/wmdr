@@ -8,13 +8,13 @@ Draft
 
 .Schema compliance implementation rules
 |===
-|ID |Element |Rules |Maximum score | Weight
+|ID |Element |Rules |Maximum score 
 
 |1-0-00
 |Validity
 |Schema is valid, the XML header does not contain: "Invalid xml:javax.xml.bind.UnmarshalException".
 |1
-|?
+
 
 
 |===
