@@ -8,13 +8,12 @@ Draft
 
 .Station contacts implementation rules
 |===
-|ID |Element |Rules |Maximum score | Weight
+|ID |Element |Rules |Maximum score
 
 |4-0-00
 |Number of station contacts
 |Station has at least on contact person. 
 |1
-|?
 
 |===
 
