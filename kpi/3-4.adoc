@@ -8,7 +8,7 @@ Draft
 
 .Data generation implementation rules
 |===
-|ID |Section |Element |Rules |Individual score |Maximum score | Weight
+|ID |Section |Element |Rules |Individual score |Maximum score
 
 
 |3-4-00
@@ -17,7 +17,7 @@ Draft
 |Traceability to a standard is stated.
 |1
 |1
-|?
+
 
 |3-4-01
 |
@@ -25,7 +25,7 @@ Draft
 |Data quality flagging system (code list: http://codes.wmo.int/wmdr/QualityFlagSystem) is specified and not "unknown".
 |1
 |1
-|?
+
 
 |3-4-02
 |
@@ -33,7 +33,7 @@ Draft
 |It indicated whether the observation is a primary one.
 |1
 |1
-|?
+
 
 |===
 
