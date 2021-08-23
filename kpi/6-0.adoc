@@ -8,7 +8,7 @@ Draft
 
 .Value of a station for WIGOS implementation rules
 |===
-|ID |Element |Rules |Maximum score | Weight
+|ID |Element |Rules |Maximum score
 
 |6-0-00
 |Program affiliations
@@ -18,7 +18,6 @@ Draft
 
 More than 5 program affiliations (score: 3)
 |3
-|?
 
 |6-0-01
 |Observations / measurements
@@ -28,19 +27,18 @@ More than 5 program affiliations (score: 3)
 
 More than 10 observations (score: 3)
 |3
-|?
 
 |6-0-02
 |Application area(s)
 |Deployment has more than one application area.
 |1 (for each deployment)
-|?
+
 
 |6-0-03
 |Near real time availability 
 |Data are available for near real time.
 |1 (for each deployment)
-|?
+
 
 |===
 
