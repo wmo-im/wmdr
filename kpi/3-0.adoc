@@ -8,20 +8,19 @@ Draft
 
 .Completeness of an observation/measurement implementation rules
 |===
-|ID |Element |Rules |Maximum score | Weight
+|ID |Element |Rules |Maximum score 
 
 |3-0-00
 |Geometry 
 |Geometry (code list: http://codes.wmo.int/wmdr/Geometry) is not specified as "unknown".
 |1
-|?
 
 |3-0-01
 |Deployments
 `wmdr:deployment`
 |The 	observation/measurement has at least one deployment.
 |1
-|?
+
 
 |===
 
