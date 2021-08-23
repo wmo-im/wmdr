@@ -8,19 +8,17 @@ Draft
 
 .Bibliographic references and Documents (OSCAR/Surface) implementation rules
 |===
-|ID |Element |Rules |Maximum score | Weight
+|ID |Element |Rules |Maximum score
 
 |5-0-00
 |Reference
 |Station record has at least one reference.
 |1
-|?
 
 |5-0-01
 |Source
 |Reference contains a valid URL or DOI or a document.
 |1 (for each reference)
-|?
 
 |===
 
