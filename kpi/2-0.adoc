@@ -57,7 +57,6 @@ Draft
 
 .2+|2-0-06
 .2+|Site description
-`wmdr:description`
 |Site description is provided. 
 `/WIGOSMetadataRecord/facility/ObservingFacility/description/Description/description`|1 .2+|2 
 |Requirement for minumum length is fulfilled. |1
@@ -65,16 +64,21 @@ Draft
 
 .2+|2-0-07
 .2+|Climate zone
-`wmdr:climateZone`
-|A climate zone (code list: http://codes.wmo.int/wmdr/ClimateZone) is specified. |1 .2+|2 
-|The begin position of valid period is specified. |1
+|A climate zone (code list: http://codes.wmo.int/wmdr/ClimateZone) is specified. 
+`/WIGOSMetadataRecord/facility/ObservingFacility/climateZone/ClimateZone/climateZone`|1 .2+|2 
+|The begin position of valid period is specified. 
+`/WIGOSMetadataRecord/facility/ObservingFacility/climateZone/ClimateZone/validPeriod/TimePeriod/beginPosition`|1
 
 
 .2+|2-0-08
 .2+|Predominant surface cover
-`wmdr:surfaceCover`
-|A surface cover classification scheme (code list: http://codes.wmo.int/wmdr/SurfaceCoverClassification) and the surface cover (code lists: http://codes.wmo.int/wmdr/SurfaceCoverXXXX) are specifed and not "unknown". |1 .2+|2 
-|The begin position of valid period is specified. |1
+|A surface cover classification scheme (code list: http://codes.wmo.int/wmdr/SurfaceCoverClassification) and the surface cover (code lists: http://codes.wmo.int/wmdr/SurfaceCoverXXXX) are specifed and not "unknown". 
+`/WIGOSMetadataRecord/facility/ObservingFacility/surfaceCover/SurfaceCover/surfaceCoverClassification`
+`/WIGOSMetadataRecord/facility/ObservingFacility/surfaceCover/SurfaceCover/surfaceCover`
+|1 .2+|2 
+|The begin position of valid period is specified. 
+`/WIGOSMetadataRecord/facility/ObservingFacility/surfaceCover/SurfaceCover/validPeriod/TimePeriod/beginPosition`
+|1
 
 
 .2+|2-0-09
@@ -86,12 +90,16 @@ Draft
 
 .5+|2-0-10
 .5+|Topography or bathymetry
-`wmdr:topographyBathymetry`
-|The local topography (based on Speight 2009) (code list: http://codes.wmo.int/wmdr/LocalTopography ) is specified and  not "unknown". |1 .5+|5  
-|The relative elevation is specified and not "unknown". |1
-|The Topographic context (based on Hammond 1954) (code list: http://codes.wmo.int/wmdr/TopographicContext ) is specified and not "unknown". |1
-|Altitude/depth (code list: http://codes.wmo.int/wmdr/AltitudeOrDepth) is specified and not "unknown". |1
-|The begin position of valid period is specified. |1
+|The local topography (based on Speight 2009) (code list: http://codes.wmo.int/wmdr/LocalTopography ) is specified and  not "unknown". 
+`/WIGOSMetadataRecord/facility/ObservingFacility/topographyBathymetry/TopographyBathymetry/localTopography`|1 .5+|5  
+|The relative elevation is specified and not "unknown". 
+`/WIGOSMetadataRecord/facility/ObservingFacility/topographyBathymetry/TopographyBathymetry/relativeElevation`|1
+|The Topographic context (based on Hammond 1954) (code list: http://codes.wmo.int/wmdr/TopographicContext ) is specified and not "unknown". 
+`/WIGOSMetadataRecord/facility/ObservingFacility/topographyBathymetry/TopographyBathymetry/topographicContext`|1
+|Altitude/depth (code list: http://codes.wmo.int/wmdr/AltitudeOrDepth) is specified and not "unknown". 
+`/WIGOSMetadataRecord/facility/ObservingFacility/topographyBathymetry/TopographyBathymetry/altitudeOrDepth`|1
+|The begin position of valid period is specified.
+`/WIGOSMetadataRecord/facility/ObservingFacility/topographyBathymetry/TopographyBathymetry/validPeriod/TimePeriod/beginPosition`|1
 
 
 .3+|2-0-11
@@ -104,19 +112,25 @@ Draft
 
 .5+|2-0-12
 .5+|Station / platform event logbook
-`wmdr:facilityLog`
-|A date is added (range or single day). |1 .5+|5 (for each event)  
-|The event is specified and not "unknown". |1
-|A description is provided.|1
-|The author is named.|1
-|The event has an online reference.|1
+|A date is added (range or single day). 
+`/WIGOSMetadataRecord/facility/ObservingFacility/facilityLog/FacilityLog/logEntry/EventReport/validPeriod/TimePeriod/beginPosition`
+|1 .5+|5 (for each event)  
+|The event is specified and not "unknown". 
+`/WIGOSMetadataRecord/facility/ObservingFacility/facilityLog/FacilityLog/logEntry/EventReport/typeOfEvent`|1
+|A description is provided.
+`/WIGOSMetadataRecord/facility/ObservingFacility/facilityLog/FacilityLog/logEntry/EventReport/description`|1
+|The author is named.
+`/WIGOSMetadataRecord/facility/ObservingFacility/facilityLog/FacilityLog/logEntry/EventReport/author`|1
+|The event has an online reference.
+`/WIGOSMetadataRecord/facility/ObservingFacility/facilityLog/FacilityLog/logEntry/EventReport/documentationURL`|1
 
 
 .2+|2-0-13
 .2+|Territory/Country
-`wmdr:territory`
-|A territory or country is specified and not "unknown". |1 .2+|2 
-|The begin position of valid period is specified. |1
+|A territory or country is specified and not "unknown". 
+`/WIGOSMetadataRecord/facility/ObservingFacility/territory/Territory/territoryName`|1 .2+|2 
+|The begin position of valid period is specified. 
+`/WIGOSMetadataRecord/facility/ObservingFacility/territory/Territory/validPeriod/TimePeriod/beginPosition`|1
 
 |==
 === Guidance to score well on this assessment
