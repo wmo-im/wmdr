@@ -8,10 +8,9 @@ Draft
 
 .Timeliness of data implementation rules
 |===
-|ID |Element |Rules |Maximum score | Weight
+|ID |Element |Rules |Maximum score 
 
 |6-1-00
-|
 |
 |
 |
