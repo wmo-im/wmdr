@@ -12,15 +12,16 @@ Draft
 
 .2+|2-0-00
 .2+|Coordinates
-`wmdr:geospatialLocation`
-|A geopositioning method is specified and not "unknown". |1 .2+|2 (for each added location) 
-|The begin position of valid period is specified. |1
+|A geopositioning method is specified and not "unknown". 
+`/WIGOSMetadataRecord/facility/ObservingFacility/geospatialLocation/GeospatialLocation/geopositioningMethod`|1 .2+|2 (for each added location) 
+|The begin position of valid period is specified. 
+`/WIGOSMetadataRecord/facility/ObservingFacility/geospatialLocation/GeospatialLocation/validPeriod/TimePeriod/beginPosition` |1
 
 
 |2-0-01
 |WMO region
-`wmdr:wmoRegion`
 |A WMO region (code list: http://codes.wmo.int/wmdr/WMORegion) is specified and it matches the coordinates.
+`/WIGOSMetadataRecord/facility/ObservingFacility/wmoRegion`
 |1 |1
 
 
@@ -33,9 +34,11 @@ Draft
 
 .2+|2-0-03
 .2+|Supervising organization
-`wmdr:responsibleParty`
-|A supervising organization is specified and not "unknown". |1 .2+|2 
-|The begin position of valid period is specified.|1
+|A supervising organization is specified and not "unknown". 
+`/WIGOSMetadataRecord/facility/ObservingFacility/responsibleParty/ResponsibleParty/responsibleParty/CI_ResponsibleParty/organisationName/CharacterString`
+|1 .2+|2 
+|The begin position of valid period is specified.
+`/WIGOSMetadataRecord/facility/ObservingFacility/responsibleParty/ResponsibleParty/validPeriod/TimePeriod/beginPosition`|1
 
 
 |2-0-04
@@ -55,7 +58,8 @@ Draft
 .2+|2-0-06
 .2+|Site description
 `wmdr:description`
-|Site description is provided. |1 .2+|2 
+|Site description is provided. 
+`/WIGOSMetadataRecord/facility/ObservingFacility/description/Description/description`|1 .2+|2 
 |Requirement for minumum length is fulfilled. |1
 
 
