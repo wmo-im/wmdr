@@ -26,6 +26,8 @@ XPath: `/WIGOSMetadataRecord/facility/ObservingFacility/observation/ObservingCap
 |Distance from reference surface
 `wmdr:heightAboveLocalReferenceSurface`
 |The distance from reference surface is specified.
+
+XPath: `/WIGOSMetadataRecord/facility/ObservingFacility/observation/ObservingCapability/observation/OM_Observation/procedure/Process/deployment/Deployment/heightAboveLocalReferenceSurface`
 |1
 |1
 
@@ -68,6 +70,8 @@ XPath: `/WIGOSMetadataRecord/facility/ObservingFacility/observation/ObservingCap
 |Configuration of instrument
 `wmdr:configuration`
 |The customisation of instruments is described (free text input). 
+
+XPath: `/WIGOSMetadataRecord/facility/ObservingFacility/observation/ObservingCapability/observation/OM_Observation/procedure/Process/deployment/Deployment/configuration`
 |1
 |1
 
@@ -77,6 +81,8 @@ XPath: `/WIGOSMetadataRecord/facility/ObservingFacility/observation/ObservingCap
 |Representativeness of observation
 `wmdr:representativeness`
 |Representativeness of observation (code list: http://codes.wmo.int/wmdr/Representativeness) is specified and not "unknown".
+
+XPath: `/WIGOSMetadataRecord/facility/ObservingFacility/observation/ObservingCapability/observation/OM_Observation/procedure/Process/deployment/Deployment/representativeness`
 |1
 |1
 
@@ -85,6 +91,8 @@ XPath: `/WIGOSMetadataRecord/facility/ObservingFacility/observation/ObservingCap
 |
 |Measurement leader / principal investigator
 |A responsible person is named.
+
+XPath: `/WIGOSMetadataRecord/facility/ObservingFacility/observation/ObservingCapability/observation/OM_Observation/metadata/MD_Metadata/contact/CI_ResponsibleParty`
 |1
 |1
 
@@ -100,13 +108,19 @@ XPath: `/WIGOSMetadataRecord/facility/ObservingFacility/observation/ObservingCap
 .2+|3-1-09
 .2+|
 .2+|Near Real Time `wmdr:distributionInfo`
-|Information on near-real time is added (Scores: Yes: 1/No: 2).|1 .2+|2  
-|If "Yes", a Near Real Time URL is added (Score: 1). |1
+|Information on near-real time is added (Scores: Yes: 1/No: 2).
+
+XPath: `/WIGOSMetadataRecord/facility/ObservingFacility/observation/ObservingCapability/observation/OM_Observation/result/ResultSet/distributionInfo/MD_Distribution/transferOptions/MD_DigitalTransferOptions/onLine/CI_OnlineResource/description/CharacterString`|1 .2+|2  
+|If "Yes", a Near Real Time URL is added (Score: 1). 
+
+XPath: `/WIGOSMetadataRecord/facility/ObservingFacility/observation/ObservingCapability/observation/OM_Observation/result/ResultSet/distributionInfo/MD_Distribution/transferOptions/MD_DigitalTransferOptions/onLine/CI_OnlineResource/linkage/URL`|1
 
 |3-1-11
 |
 |Data URL `wmdr:distributionInfo`
 |A data URL is provided and valid.
+
+XPath: `/WIGOSMetadataRecord/facility/ObservingFacility/observation/ObservingCapability/observation/OM_Observation/result/ResultSet/distributionInfo/MD_Distribution/transferOptions/MD_DigitalTransferOptions/onLine/CI_OnlineResource/linkage/URL`
 |1
 |1
 
@@ -116,6 +130,8 @@ XPath: `/WIGOSMetadataRecord/facility/ObservingFacility/observation/ObservingCap
 |Data communication method
 `wmdr:communicationMethod`
 |The data communication method (code list: http://codes.wmo.int/wmdr/DataCommunicationMethod) is added and not "unknown".
+
+XPath: `/WIGOSMetadataRecord/facility/ObservingFacility/observation/ObservingCapability/observation/OM_Observation/procedure/Process/deployment/Deployment/communicationMethod`
 |1
 |1
 
@@ -124,6 +140,8 @@ XPath: `/WIGOSMetadataRecord/facility/ObservingFacility/observation/ObservingCap
 |
 |Instrument QA/QC schedule `wmdr:controlSchedule`
 |Instrument QA/QC schedule is described (free text input).
+
+XPath: `/WIGOSMetadataRecord/facility/ObservingFacility/observation/ObservingCapability/observation/OM_Observation/procedure/Process/deployment/Deployment/controlSchedule`
 |1
 |1
 
@@ -133,6 +151,8 @@ XPath: `/WIGOSMetadataRecord/facility/ObservingFacility/observation/ObservingCap
 |Maintenance schedule
 `wmdr:maintenanceSchedule`
 |Maintenance schedule is described (free text input).
+
+XPath: `/WIGOSMetadataRecord/facility/ObservingFacility/observation/ObservingCapability/observation/OM_Observation/procedure/Process/deployment/Deployment/maintenanceSchedule`
 |1
 |1
 
@@ -154,21 +174,32 @@ XPath: `/WIGOSMetadataRecord/facility/ObservingFacility/observation/ObservingCap
 .2+|3-1-17
 .2+|
 .2+|Coordinates `wmdr:geospatialLocation`
-|Instrument coordinates are added (Latitude, longitude, elevation).|1 .2+|2 
-|A geopositioning method (code list: http://codes.wmo.int/wmdr/GeopositioningMethod) is specified and not "unknown".|1
+|Instrument coordinates are added (Latitude, longitude, elevation).
+
+XPath: `/WIGOSMetadataRecord/facility/ObservingFacility/observation/ObservingCapability/observation/OM_Observation/procedure/Process/deployment/Deployment/deployedEquipment/Equipment/geospatialLocation/GeospatialLocation/geoLocation/Point/pos`|1 .2+|2 
+|A geopositioning method (code list: http://codes.wmo.int/wmdr/GeopositioningMethod) is specified and not "unknown".
+
+XPath: `/WIGOSMetadataRecord/facility/ObservingFacility/observation/ObservingCapability/observation/OM_Observation/procedure/Process/deployment/Deployment/deployedEquipment/Equipment/geospatialLocation/GeospatialLocation/geopositioningMethod`|1
 
 
 .2+|3-1-18
 .2+|
 .2+|Instrument operating status `wmdr:instrumentOperatingStatus`
-|An instrument operating status (code list: http://codes.wmo.int/wmdr/InstrumentOperatingStatus) is specified and not "unknown".|1 .2+|2 
-|The begin position of valid period is specified.|1
+|An instrument operating status (code list: http://codes.wmo.int/wmdr/InstrumentOperatingStatus) is specified and not "unknown".
+
+XPath: `/WIGOSMetadataRecord/facility/ObservingFacility/observation/ObservingCapability/observation/OM_Observation/procedure/Process/deployment/Deployment/instrumentOperatingStatus/InstrumentOperatingStatus/instrumentOperatingStatus`
+|1 .2+|2 
+|The begin position of valid period is specified.
+
+XPath: `/WIGOSMetadataRecord/facility/ObservingFacility/observation/ObservingCapability/observation/OM_Observation/procedure/Process/deployment/Deployment/instrumentOperatingStatus/InstrumentOperatingStatus/validPeriod/TimePeriod/beginPosition`|1
 
 
 |3-1-19
 |
 |Firmware version `wmdr:firmwareVersion`
 |A firmware version is specified (free text input).
+
+XPath: `/WIGOSMetadataRecord/facility/ObservingFacility/observation/ObservingCapability/observation/OM_Observation/procedure/Process/deployment/Deployment/deployedEquipment/Equipment/firmwareVersion`
 |1
 |1
 
@@ -177,6 +208,8 @@ XPath: `/WIGOSMetadataRecord/facility/ObservingFacility/observation/ObservingCap
 |
 |Observable range `wmdr:observableRange`
 |The observable range is specified including a unit.
+
+XPath: `/WIGOSMetadataRecord/facility/ObservingFacility/observation/ObservingCapability/observation/OM_Observation/procedure/Process/deployment/Deployment/deployedEquipment/Equipment/observableRange`
 |1
 |1
 
@@ -184,14 +217,20 @@ XPath: `/WIGOSMetadataRecord/facility/ObservingFacility/observation/ObservingCap
 .2+|3-1-21
 .2+|
 .2+|Uncertainty (relative and absolute) `wmdr:specifiedRelativeUncertainty`, `wmdr:specifiedAbsoluteUncertainty`
-|A plausible estimated value for the realtive uncertainty (in (0,1)) is specified.|1 .2+|2 
-|A value for the absolute uncertainty is specified.|1
+|A plausible estimated value for the realtive uncertainty (in (0,1)) is specified. 
+
+XPath: `/WIGOSMetadataRecord/facility/ObservingFacility/observation/ObservingCapability/observation/OM_Observation/procedure/Process/deployment/Deployment/deployedEquipment/Equipment/specifiedRelativeUncertainty`|1 .2+|2 
+|A value for the absolute uncertainty is specified.
+
+XPath: `/WIGOSMetadataRecord/facility/ObservingFacility/observation/ObservingCapability/observation/OM_Observation/procedure/Process/deployment/Deployment/deployedEquipment/Equipment/specifiedAbsoluteUncertainty`|1
 
 
 |3-1-22
 |
 |Drift per unit time (Expressed as % per year) `wmdr:driftPerUnitTime`
 |A plausibe value is given. (Text input consists only of one number.)
+
+XPath: `/WIGOSMetadataRecord/facility/ObservingFacility/observation/ObservingCapability/observation/OM_Observation/procedure/Process/deployment/Deployment/deployedEquipment/Equipment/driftPerUnitTime`
 |1
 |1
 
@@ -200,6 +239,8 @@ XPath: `/WIGOSMetadataRecord/facility/ObservingFacility/observation/ObservingCap
 |
 |Specification URL `wmdr:specificationLink`
 |A specification URL is added and valid.
+
+XPath: `/WIGOSMetadataRecord/facility/ObservingFacility/observation/ObservingCapability/observation/OM_Observation/procedure/Process/deployment/Deployment/deployedEquipment/Equipment/specificationLink`
 |1
 |1
 
