@@ -140,9 +140,15 @@ XPath: `/WIGOSMetadataRecord/facility/ObservingFacility/observation/ObservingCap
 .3+|3-1-15
 .3+|Instrument characteristics
 .3+|Instrument details (`wmdr:manufacturer`, `wmdr:model`, `wmdr:serialNumber`)
-|A manufacturer named and not "unknown".|1 .3+|3 
-|A model is specified.|1
-|A serial number is specified.|1
+|A manufacturer named and not "unknown".
+
+XPath: `/WIGOSMetadataRecord/facility/ObservingFacility/observation/ObservingCapability/observation/OM_Observation/procedure/Process/deployment/Deployment/deployedEquipment/Equipment/manufacturer`|1 .3+|3 
+|A model is specified.
+
+XPath: `/WIGOSMetadataRecord/facility/ObservingFacility/observation/ObservingCapability/observation/OM_Observation/procedure/Process/deployment/Deployment/deployedEquipment/Equipment/model`|1
+|A serial number is specified.
+
+XPath: `/WIGOSMetadataRecord/facility/ObservingFacility/observation/ObservingCapability/observation/OM_Observation/procedure/Process/deployment/Deployment/deployedEquipment/Equipment/serialNumber`|1
 
 
 .2+|3-1-17
