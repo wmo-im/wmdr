@@ -13,12 +13,14 @@ Draft
 |3-0-00
 |Geometry 
 |Geometry (code list: http://codes.wmo.int/wmdr/Geometry) is not specified as "unknown".
+`/WIGOSMetadataRecord/facility/ObservingFacility/observation/ObservingCapability/observation/OM_Observation/type`
 |1
 
 |3-0-01
 |Deployments
 `wmdr:deployment`
 |The 	observation/measurement has at least one deployment.
+`/WIGOSMetadataRecord/facility/ObservingFacility/observation/ObservingCapability/observation/OM_Observation/procedure/Process/deployment`
 |1
 
 
