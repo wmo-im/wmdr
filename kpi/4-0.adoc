@@ -13,6 +13,8 @@ Draft
 |4-0-00
 |Number of station contacts
 |Station has at least on contact person. 
+
+XPath: `/WIGOSMetadataRecord/facility/ObservingFacility/responsibleParty`
 |1
 
 |===
