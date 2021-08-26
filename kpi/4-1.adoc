@@ -13,29 +13,33 @@ Draft
 |4-1-00
 |Address
 |Address is specified.
+
+XPath: `/WIGOSMetadataRecord/facility/ObservingFacility/responsibleParty/ResponsibleParty/responsibleParty/CI_ResponsibleParty/contactInfo/CI_Contact/address/CI_Address/deliveryPoint/CharacterString`
 |1
 
 |4-1-01
 |Postal code
 |Postal code is specified.
+
+XPath: `/WIGOSMetadataRecord/facility/ObservingFacility/responsibleParty/ResponsibleParty/responsibleParty/CI_ResponsibleParty/contactInfo/CI_Contact/address/CI_Address/postalCode/CharacterString`
 |1
 
 |4-1-02
 |State or province
 |State/province is specified.
+
+XPath: `/WIGOSMetadataRecord/facility/ObservingFacility/responsibleParty/ResponsibleParty/responsibleParty/CI_ResponsibleParty/contactInfo/CI_Contact/address/CI_Address/country/CharacterString`
 |1
 
 |4-1-03
 |Phone (main & other)
 |At least one phone number is provided.
+
+XPath: `/WIGOSMetadataRecord/facility/ObservingFacility/responsibleParty/ResponsibleParty/responsibleParty/CI_ResponsibleParty/contactInfo/CI_Contact/phone/CI_Telephone/voice/CharacterString`
 |1
+
 
 |4-1-04
-|Fax
-|Fax number is provided.
-|1
-
-|4-1-05
 |Contact URL
 |URL is provided and valid.
 |1
