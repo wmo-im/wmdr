@@ -18,7 +18,6 @@ Draft
 
 |3-0-01
 |Deployments
-`wmdr:deployment`
 |The 	observation/measurement has at least one deployment.
 `/WIGOSMetadataRecord/facility/ObservingFacility/observation/ObservingCapability/observation/OM_Observation/procedure/Process/deployment`
 |1
