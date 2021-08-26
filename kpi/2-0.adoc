@@ -43,15 +43,15 @@ Draft
 
 |2-0-04
 |Station URL
-`wmdr:onlineResource`
 |URL is provided and valid.
+`/WIGOSMetadataRecord/facility/ObservingFacility/onlineResource/CI_OnlineResource/linkage/URL`
 |1 |1
 
 
 |2-0-05
 |Other link (URL)
-`wmdr:onlineResource`
 |At least one other link is provided and all URLs are valid.
+`/WIGOSMetadataRecord/facility/ObservingFacility/onlineResource/CI_OnlineResource/linkage/URL` 
 |1 |1
 
 
