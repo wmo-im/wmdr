@@ -12,6 +12,7 @@ Draft
 
 .2+|2-0-00
 .2+|Coordinates
+`wmdr:geospatialLocation`
 |A geopositioning method is specified and not "unknown". 
 `/WIGOSMetadataRecord/facility/ObservingFacility/geospatialLocation/GeospatialLocation/geopositioningMethod`|1 .2+|2 (for each added location) 
 |The begin position of valid period is specified. 
@@ -20,6 +21,7 @@ Draft
 
 |2-0-01
 |WMO region
+`wmdr:wmoRegion`
 |A WMO region (code list: http://codes.wmo.int/wmdr/WMORegion) is specified and it matches the coordinates.
 `/WIGOSMetadataRecord/facility/ObservingFacility/wmoRegion`
 |1 |1
@@ -34,6 +36,7 @@ Draft
 
 .2+|2-0-03
 .2+|Supervising organization
+`wmdr:responsibleParty`
 |A supervising organization is specified and not "unknown". 
 `/WIGOSMetadataRecord/facility/ObservingFacility/responsibleParty/ResponsibleParty/responsibleParty/CI_ResponsibleParty/organisationName/CharacterString`
 |1 .2+|2 
@@ -57,6 +60,7 @@ Draft
 
 .2+|2-0-06
 .2+|Site description
+`wmdr:description`
 |Site description is provided. 
 `/WIGOSMetadataRecord/facility/ObservingFacility/description/Description/description`|1 .2+|2 
 |Requirement for minumum length is fulfilled. |1
@@ -64,6 +68,7 @@ Draft
 
 .2+|2-0-07
 .2+|Climate zone
+`wmdr:climateZone`
 |A climate zone (code list: http://codes.wmo.int/wmdr/ClimateZone) is specified. 
 `/WIGOSMetadataRecord/facility/ObservingFacility/climateZone/ClimateZone/climateZone`|1 .2+|2 
 |The begin position of valid period is specified. 
@@ -72,6 +77,7 @@ Draft
 
 .2+|2-0-08
 .2+|Predominant surface cover
+`wmdr:surfaceCover`
 |A surface cover classification scheme (code list: http://codes.wmo.int/wmdr/SurfaceCoverClassification) and the surface cover (code lists: http://codes.wmo.int/wmdr/SurfaceCoverXXXX) are specifed and not "unknown". 
 `/WIGOSMetadataRecord/facility/ObservingFacility/surfaceCover/SurfaceCover/surfaceCoverClassification`
 `/WIGOSMetadataRecord/facility/ObservingFacility/surfaceCover/SurfaceCover/surfaceCover`
@@ -90,6 +96,7 @@ Draft
 
 .5+|2-0-10
 .5+|Topography or bathymetry
+`wmdr:topographyBathymetry`
 |The local topography (based on Speight 2009) (code list: http://codes.wmo.int/wmdr/LocalTopography ) is specified and  not "unknown". 
 `/WIGOSMetadataRecord/facility/ObservingFacility/topographyBathymetry/TopographyBathymetry/localTopography`|1 .5+|5  
 |The relative elevation is specified and not "unknown". 
@@ -112,6 +119,7 @@ Draft
 
 .5+|2-0-12
 .5+|Station / platform event logbook
+`wmdr:facilityLog`
 |A date is added (range or single day). 
 `/WIGOSMetadataRecord/facility/ObservingFacility/facilityLog/FacilityLog/logEntry/EventReport/validPeriod/TimePeriod/beginPosition`
 |1 .5+|5 (for each event)  
@@ -127,6 +135,7 @@ Draft
 
 .2+|2-0-13
 .2+|Territory/Country
+`wmdr:territory`
 |A territory or country is specified and not "unknown". 
 `/WIGOSMetadataRecord/facility/ObservingFacility/territory/Territory/territoryName`|1 .2+|2 
 |The begin position of valid period is specified. 
