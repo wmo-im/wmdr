@@ -3,7 +3,7 @@
 
 Category no. | Subcategory no. | Name | Criterium |Status
 :-:|:-:|:-:|:-|-- 
-1|0|Schema compliance | Validity|to be expanded
+1|0|Schema compliance | Validity|To be expanded
 2|0|Station characteristics | Completeness of a WMDR XML station record|Draft
 2|1|Station characteristics (OSCAR/Surface) | Completeness of a station record (based on internal OSCAR/Surface elements) |Draft
 3|0|Observations/measurements - Basic information |Completeness of a WMDR XML station record |Draft
