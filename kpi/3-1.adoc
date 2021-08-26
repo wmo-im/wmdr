@@ -13,6 +13,7 @@ Draft
 |3-1-00
 |General information
 |Source of observation
+`wmdr:sourceOfObservation`
 |Source of observation (code list: http://codes.wmo.int/wmdr/SourceOfObservation) is specified and not "unknown".
 XPath: `/WIGOSMetadataRecord/facility/ObservingFacility/observation/ObservingCapability/observation/OM_Observation/procedure/Process/deployment/Deployment/sourceOfObservation`
 |1
@@ -31,6 +32,7 @@ XPath: `/WIGOSMetadataRecord/facility/ObservingFacility/observation/ObservingCap
 |3-1-02
 |
 |Type of reference surface
+`wmdr:localReferenceSurface`
 |A type of reference surface (code list: http://codes.wmo.int/wmdr/ReferenceSurfaceType) is specified and the entry is not "unknown".
 XPath: `/WIGOSMetadataRecord/facility/ObservingFacility/observation/ObservingCapability/observation/OM_Observation/procedure/Process/deployment/Deployment/localReferenceSurface`
 |1
@@ -40,6 +42,7 @@ XPath: `/WIGOSMetadataRecord/facility/ObservingFacility/observation/ObservingCap
 |3-1-03
 |
 |Application area(s)
+`wmdr:applicationArea`
 |At least one application area (code list: http://codes.wmo.int/wmdr/ApplicationArea) is specified and not "unknown". 
 XPath: `/WIGOSMetadataRecord/facility/ObservingFacility/observation/ObservingCapability/observation/OM_Observation/procedure/Process/deployment/Deployment/applicationArea`
 |1
@@ -49,6 +52,7 @@ XPath: `/WIGOSMetadataRecord/facility/ObservingFacility/observation/ObservingCap
 |3-1-04
 |
 |Exposure of instrument
+`wmdr:exposure`
 |The exposure classification (code list: http://codes.wmo.int/wmdr/Exposure) is specified and not "unknown".
 XPath: `/WIGOSMetadataRecord/facility/ObservingFacility/observation/ObservingCapability/observation/OM_Observation/procedure/Process/deployment/Deployment/exposure`
 |1
