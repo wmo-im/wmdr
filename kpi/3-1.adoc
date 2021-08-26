@@ -14,7 +14,7 @@ Draft
 |General information
 |Source of observation
 |Source of observation (code list: http://codes.wmo.int/wmdr/SourceOfObservation) is specified and not "unknown".
-`/WIGOSMetadataRecord/facility/ObservingFacility/observation/ObservingCapability/observation/OM_Observation/procedure/Process/deployment/Deployment/sourceOfObservation`
+XPath: `/WIGOSMetadataRecord/facility/ObservingFacility/observation/ObservingCapability/observation/OM_Observation/procedure/Process/deployment/Deployment/sourceOfObservation`
 |1
 |1
 
@@ -32,7 +32,7 @@ Draft
 |
 |Type of reference surface
 |A type of reference surface (code list: http://codes.wmo.int/wmdr/ReferenceSurfaceType) is specified and the entry is not "unknown".
-`/WIGOSMetadataRecord/facility/ObservingFacility/observation/ObservingCapability/observation/OM_Observation/procedure/Process/deployment/Deployment/localReferenceSurface`
+XPath: `/WIGOSMetadataRecord/facility/ObservingFacility/observation/ObservingCapability/observation/OM_Observation/procedure/Process/deployment/Deployment/localReferenceSurface`
 |1
 |1
 
@@ -41,7 +41,7 @@ Draft
 |
 |Application area(s)
 |At least one application area (code list: http://codes.wmo.int/wmdr/ApplicationArea) is specified and not "unknown". 
-`/WIGOSMetadataRecord/facility/ObservingFacility/observation/ObservingCapability/observation/OM_Observation/procedure/Process/deployment/Deployment/applicationArea`
+XPath: `/WIGOSMetadataRecord/facility/ObservingFacility/observation/ObservingCapability/observation/OM_Observation/procedure/Process/deployment/Deployment/applicationArea`
 |1
 |1
 
@@ -50,7 +50,7 @@ Draft
 |
 |Exposure of instrument
 |The exposure classification (code list: http://codes.wmo.int/wmdr/Exposure) is specified and not "unknown".
-`/WIGOSMetadataRecord/facility/ObservingFacility/observation/ObservingCapability/observation/OM_Observation/procedure/Process/deployment/Deployment/exposure`
+XPath: `/WIGOSMetadataRecord/facility/ObservingFacility/observation/ObservingCapability/observation/OM_Observation/procedure/Process/deployment/Deployment/exposure`
 |1
 |1
 
