@@ -14,6 +14,8 @@ Draft
 |Sampling
 |Sampling strategy `wmdr:samplingStrategy`
 |Sampling strategy (code list: http://codes.wmo.int/wmdr/SamplingStrategy) is specified and not "unknown".
+
+XPath: `/WIGOSMetadataRecord/facility/ObservingFacility/observation/ObservingCapability/observation/OM_Observation/procedure/Process/deployment/Deployment/dataGeneration/DataGeneration/sampling/Sampling/samplingStrategy`
 |1
 |1
 
@@ -22,6 +24,8 @@ Draft
 |
 |Sampling interval `wmdr:temporalSamplingInterval`	
 |Sampling interval is specified.
+
+XPath: `/WIGOSMetadataRecord/facility/ObservingFacility/observation/ObservingCapability/observation/OM_Observation/procedure/Process/deployment/Deployment/dataGeneration/DataGeneration/sampling/Sampling/temporalSamplingInterval`
 |1
 |1
 
@@ -30,6 +34,8 @@ Draft
 |
 |Sampling period `wmdr:samplingTimePeriod`
 |Sampling period is specified.
+
+XPath: `/WIGOSMetadataRecord/facility/ObservingFacility/observation/ObservingCapability/observation/OM_Observation/procedure/Process/deployment/Deployment/dataGeneration/DataGeneration/sampling/Sampling/samplingTimePeriod`
 |1
 |1
 
@@ -38,6 +44,8 @@ Draft
 |
 |Spatial sampling resolution `wmdr:spatialSamplingResolution`
 |Sampling resolution is specified.
+
+XPath: `/WIGOSMetadataRecord/facility/ObservingFacility/observation/ObservingCapability/observation/OM_Observation/procedure/Process/deployment/Deployment/dataGeneration/DataGeneration/sampling/Sampling/spatialSamplingResolution`
 |1
 |1
 
@@ -45,14 +53,20 @@ Draft
 .2+|3-3-04
 .2+|
 .2+|Sampling procedure `wmdr:samplingProcedure`
-|Sampling procedure is specified and not "unknown". |1 .2+|2 
-|Sampling procedure description is provided.|1
+|Sampling procedure is specified and not "unknown". 
+
+XPath: `/WIGOSMetadataRecord/facility/ObservingFacility/observation/ObservingCapability/observation/OM_Observation/procedure/Process/deployment/Deployment/dataGeneration/DataGeneration/sampling/Sampling/samplingProcedure`|1 .2+|2 
+|Sampling procedure description is provided.
+
+XPath: `/WIGOSMetadataRecord/facility/ObservingFacility/observation/ObservingCapability/observation/OM_Observation/procedure/Process/deployment/Deployment/dataGeneration/DataGeneration/sampling/Sampling/samplingProcedureDescription`|1
 
 
 |3-3-05
 |
 |Sample treatment	`wmdr:sampleTreatment`
 |Sample treatment is specified and not "unknown".
+
+XPath: `/WIGOSMetadataRecord/facility/ObservingFacility/observation/ObservingCapability/observation/OM_Observation/procedure/Process/deployment/Deployment/dataGeneration/DataGeneration/sampling/Sampling/sampleTreatment`
 |1
 |1
 
@@ -61,6 +75,8 @@ Draft
 |Processing
 |Aggregation period `wmdr:aggregationPeriod`
 |Aggregation period is specified.
+
+XPath: `/WIGOSMetadataRecord/facility/ObservingFacility/observation/ObservingCapability/observation/OM_Observation/procedure/Process/deployment/Deployment/dataGeneration/DataGeneration/processing/Processing/aggregationPeriod`
 |1
 |1
 
@@ -68,7 +84,9 @@ Draft
 |3-3-07
 |
 |Data processing method `wmdr:dataProcessing`
-|Data processing method is described.
+|Data processing method is described. 
+
+XPath: `/WIGOSMetadataRecord/facility/ObservingFacility/observation/ObservingCapability/observation/OM_Observation/procedure/Process/deployment/Deployment/dataGeneration/DataGeneration/processing/Processing/dataProcessing`
 |1
 |1
 
@@ -77,6 +95,8 @@ Draft
 |
 |Software/processor and version `wmdr:dataProcessing`
 |Name and version of the software or processor are specified.
+
+XPath: `/WIGOSMetadataRecord/facility/ObservingFacility/observation/ObservingCapability/observation/OM_Observation/procedure/Process/deployment/Deployment/dataGeneration/DataGeneration/processing/Processing/softwareDetails`
 |1
 |1
 
@@ -85,6 +105,8 @@ Draft
 |
 |Software/source code repository URL `wmdr:softwareURL`
 |URL is provided and valid.
+
+XPath: `/WIGOSMetadataRecord/facility/ObservingFacility/observation/ObservingCapability/observation/OM_Observation/procedure/Process/deployment/Deployment/dataGeneration/DataGeneration/processing/Processing/softwareURL`
 |1
 |1
 
@@ -93,6 +115,8 @@ Draft
 |
 |Processing/analysis centre `wmdr:processingCentre`
 |Processing/analysis centre is named and not "unknown".
+
+XPath: `/WIGOSMetadataRecord/facility/ObservingFacility/observation/ObservingCapability/observation/OM_Observation/procedure/Process/deployment/Deployment/dataGeneration/DataGeneration/processing/Processing/processingCentre`
 |1
 |1
 
@@ -109,6 +133,8 @@ Draft
 |
 |Number of observations in reporting period `wmdr:numberOfObservationsInReportingInterval`
 |Number of observations in reporting period is specified. 
+
+XPath: `/WIGOSMetadataRecord/facility/ObservingFacility/observation/ObservingCapability/observation/OM_Observation/procedure/Process/deployment/Deployment/dataGeneration/DataGeneration/reporting/Reporting/numberOfObservationsInReportingInterval`
 |1
 |1
 
@@ -117,6 +143,8 @@ Draft
 |
 |Measurement unit	`wmdr:uom`
 |	Unit (code list: http://codes.wmo.int/wmdr/unit) is specified and not "unknown".
+
+XPath: `/WIGOSMetadataRecord/facility/ObservingFacility/observation/ObservingCapability/observation/OM_Observation/procedure/Process/deployment/Deployment/dataGeneration/DataGeneration/reporting/Reporting/uom`
 |1
 |1
 
@@ -125,6 +153,8 @@ Draft
 |
 |Data policy `wmdr:dataPolicy`
 |Data policy (code list: http://codes.wmo.int/wmdr/DataPolicy) is specified and not "unknown".
+
+XPath: `/WIGOSMetadataRecord/facility/ObservingFacility/observation/ObservingCapability/observation/OM_Observation/procedure/Process/deployment/Deployment/dataGeneration/DataGeneration/reporting/Reporting/dataPolicy/DataPolicy/dataPolicy`
 |1
 |1
 
@@ -133,6 +163,8 @@ Draft
 |
 |Spatial reporting interval `wmdr:spatialReportingInterval`
 |Spatial reporting interval is specified.
+
+XPath: `/WIGOSMetadataRecord/facility/ObservingFacility/observation/ObservingCapability/observation/OM_Observation/procedure/Process/deployment/Deployment/dataGeneration/DataGeneration/reporting/Reporting/spatialReportingInterval`
 |1
 |1
 
@@ -141,6 +173,8 @@ Draft
 |
 |Timeliness (Latency of reporting) `wmdr:timeliness`
 |Time lag is specified.
+
+XPath: `/WIGOSMetadataRecord/facility/ObservingFacility/observation/ObservingCapability/observation/OM_Observation/procedure/Process/deployment/Deployment/dataGeneration/DataGeneration/reporting/Reporting/timeliness`
 |1
 |1
 
@@ -149,6 +183,8 @@ Draft
 |
 |Numerical resolution `wmdr:numericalResolution`
 |Numerical resolution is specified.
+
+XPath: `/WIGOSMetadataRecord/facility/ObservingFacility/observation/ObservingCapability/observation/OM_Observation/procedure/Process/deployment/Deployment/dataGeneration/DataGeneration/reporting/Reporting/numericalResolution`
 |1
 |1
 
@@ -157,6 +193,8 @@ Draft
 |
 |Level of data `wmdr:levelOfData`
 |Level of data (code list: http://codes.wmo.int/wmdr/LevelOfData) is specified and not "unknown".
+
+XPath: `/WIGOSMetadataRecord/facility/ObservingFacility/observation/ObservingCapability/observation/OM_Observation/procedure/Process/deployment/Deployment/dataGeneration/DataGeneration/reporting/Reporting/levelOfData`
 |1
 |1
 
@@ -165,6 +203,8 @@ Draft
 |
 |Data format `wmdr:dataFormat`
 |Data format (code list: http://codes.wmo.int/wmdr/DataFormat) is specified and not "unknown".
+
+XPath: `/WIGOSMetadataRecord/facility/ObservingFacility/observation/ObservingCapability/observation/OM_Observation/procedure/Process/deployment/Deployment/dataGeneration/DataGeneration/reporting/Reporting/dataFormat`
 |1
 |1
 
@@ -173,6 +213,8 @@ Draft
 |
 |Data format version `wmdr:dataFormatVersion`
 |Data format version is specified.
+
+XPath: `/WIGOSMetadataRecord/facility/ObservingFacility/observation/ObservingCapability/observation/OM_Observation/procedure/Process/deployment/Deployment/dataGeneration/DataGeneration/reporting/Reporting/dataFormatVersion`
 |1
 |1
 
@@ -181,6 +223,8 @@ Draft
 |
 |Reference datum `wmdr:referenceDatum`
 |Reference datum is described.
+
+XPath: `/WIGOSMetadataRecord/facility/ObservingFacility/observation/ObservingCapability/observation/OM_Observation/procedure/Process/deployment/Deployment/dataGeneration/DataGeneration/reporting/Reporting/referenceDatum/VerticalDatum/remarks`
 |1
 |1
 
@@ -189,6 +233,8 @@ Draft
 |
 |Reference time source `wmdr:referenceTimeSource`
 |Reference time source (code list: http://codes.wmo.int/wmdr/ReferenceTime) is specified and not "unknown".
+
+XPath: `/WIGOSMetadataRecord/facility/ObservingFacility/observation/ObservingCapability/observation/OM_Observation/procedure/Process/deployment/Deployment/dataGeneration/DataGeneration/reporting/Reporting/referenceTimeSource`
 |1
 |1
 
@@ -197,6 +243,8 @@ Draft
 |
 |Meaning of timestamp in data reports `wmdr:timeStampMeaning`
 |Meaning of timestamp (code list:  http://codes.wmo.int/wmdr/TimeStampMeaning) in data reports is specified and not "unknown".
+
+XPath: `/WIGOSMetadataRecord/facility/ObservingFacility/observation/ObservingCapability/observation/OM_Observation/procedure/Process/deployment/Deployment/dataGeneration/DataGeneration/reporting/Reporting/timeStampMeaning`
 |1
 |1
 
@@ -204,10 +252,18 @@ Draft
 .4+|3-3-27
 .4+|
 .4+|Attribution `wmdr:attribution`
-|Title of work is specified. |1 .4+|4 
-|Attribution URL is given and valid.|1
-|Originator of work is named.|1
-|Source work basis (URL) is added and valid.|1
+|Title of work is specified. 
+
+XPath: `/WIGOSMetadataRecord/facility/ObservingFacility/observation/ObservingCapability/observation/OM_Observation/procedure/Process/deployment/Deployment/dataGeneration/DataGeneration/reporting/Reporting/dataPolicy/DataPolicy/attribution/Attribution/title`|1 .4+|4 
+|Attribution URL is given and valid.
+
+XPath: `/WIGOSMetadataRecord/facility/ObservingFacility/observation/ObservingCapability/observation/OM_Observation/procedure/Process/deployment/Deployment/dataGeneration/DataGeneration/reporting/Reporting/dataPolicy/DataPolicy/attribution/Attribution/originatorURL/CI_OnlineResource/linkage/URL`|1
+|Originator of work is named.
+
+XPath: `/WIGOSMetadataRecord/facility/ObservingFacility/observation/ObservingCapability/observation/OM_Observation/procedure/Process/deployment/Deployment/dataGeneration/DataGeneration/reporting/Reporting/dataPolicy/DataPolicy/attribution/Attribution/originator/CI_ResponsibleParty/organisationName/CharacterString`|1
+|Source work basis (URL) is added and valid.
+
+XPath: `/WIGOSMetadataRecord/facility/ObservingFacility/observation/ObservingCapability/observation/OM_Observation/procedure/Process/deployment/Deployment/dataGeneration/DataGeneration/reporting/Reporting/dataPolicy/DataPolicy/attribution/Attribution/source/CI_OnlineResource/linkage/URL`|1
 
 |===
 
