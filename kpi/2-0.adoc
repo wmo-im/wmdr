@@ -128,9 +128,15 @@ XPath: `/WIGOSMetadataRecord/facility/ObservingFacility/topographyBathymetry/Top
 .3+|2-0-11
 .3+|Population
 `wmdr:population`
-|Values for population in 10 km range is added. |1 .3+|3  
-|Values for population in 50 km range is added. |1
-|The begin position of valid period is specified. |1
+|Values for population in 10 km range is added. 
+
+XPath: `/WIGOSMetadataRecord/facility/ObservingFacility/population/Population/population10km`|1 .3+|3  
+|Values for population in 50 km range is added. 
+
+XPath: `/WIGOSMetadataRecord/facility/ObservingFacility/population/Population/population50km`|1
+|The begin position of valid period is specified. 
+
+XPath: `/WIGOSMetadataRecord/facility/ObservingFacility/population/Population/validPeriod/TimePeriod/beginPosition`|1
 
 
 .5+|2-0-12
