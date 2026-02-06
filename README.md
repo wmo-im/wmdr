@@ -11,8 +11,9 @@ NB: This repository should not be used for tickets regarding the OSCAR/Surface A
 A viewer for currently approved versions of the model can be accessed at https://schemas.wmo.int/wmdr.
 
 ### WMDR2.0
-A viewer for the development version of the WMDR2 model can be accessed at https://wmo-im.github.io/wmdr2/html/index.htm?goto=1.
+A viewer for the development version of the WMDR2 model can be accessed at https://wmo-im.github.io/wmdr2/oms/html/.
 
 NB: Work on the WMDR2.0 has not been wiedely reviewed yet and is work-in-progress. If you find an interest in contributing, please reach out to the TT-WIGOSMD team.
+
 
 
